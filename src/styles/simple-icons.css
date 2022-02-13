@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Simple Icons';
+  src: url('/fonts/SimpleIcons.woff2') format('woff2');
+}
+
+.si {
+  font-family: 'Simple Icons', sans-serif;
+  font-style: normal;
+}
+
+.si-d3dotjs::before {
+  content: '\ebc5';
+}
+
+.si-d3dotjs.si--color::before {
+  color: #f9a03c;
+}
