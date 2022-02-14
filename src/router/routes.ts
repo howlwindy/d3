@@ -1,7 +1,7 @@
 import { RouteRecordRaw } from 'vue-router'
 
-const array: RouteRecordRaw = {
-  path: '/array',
+const arrays: RouteRecordRaw = {
+  path: '/arrays',
   component: () => import('../pages/arrays/Arrays.vue'),
   children: [
     {
@@ -291,7 +291,7 @@ const zooming: RouteRecordRaw = {
 
 export const routes = (): RouteRecordRaw[] => [
   { path: '/', component: () => import('../pages/Home.vue') },
-  array,
+  arrays,
   axes,
   brushes,
   chords,
