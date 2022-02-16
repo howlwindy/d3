@@ -55,7 +55,36 @@ const colors: RouteRecordRaw = {
 
 const colorSchemes: RouteRecordRaw = {
   path: '/color-schemes',
-  component: () => import('../pages/color-schemes/ColorSchemes.vue')
+  component: () => import('../pages/color-schemes/ColorSchemes.vue'),
+  children: [
+    {
+      path: 'categorical',
+      component: () =>
+        import('../pages/color-schemes/categorical/Categorical.vue')
+    },
+    {
+      path: 'diverging',
+      component: () => import('../pages/color-schemes/diverging/Diverging.vue')
+    },
+    {
+      path: 'sequential-single-hue',
+      component: () =>
+        import(
+          '../pages/color-schemes/sequential-single-hue/SequentialSingleHue.vue'
+        )
+    },
+    {
+      path: 'sequential-multi-hue',
+      component: () =>
+        import(
+          '../pages/color-schemes/sequential-multi-hue/SequentialMutiHue.vue'
+        )
+    },
+    {
+      path: 'cyclical',
+      component: () => import('../pages/color-schemes/cyclical/Cyclical.vue')
+    }
+  ]
 }
 
 const contours: RouteRecordRaw = {
