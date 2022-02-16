@@ -31,7 +31,6 @@ const min = [`d3.min(DATA) => ${d3.min(DATA)}`]
     v-for="(v, k) of STATISTICS_SRC"
     :key="k"
     v-highlight
-    style="padding-right: 5px"
-  ><code class="typescript" style="overflow-x: scroll">{{ v.join('\n') }}</code></pre>
+  ><code class="typescript">{{ v.join('\n') }}</code></pre>
 </template>
 <style scoped></style>
