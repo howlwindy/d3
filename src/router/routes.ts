@@ -13,15 +13,15 @@ const arrays: RouteRecordRaw = {
       component: () => import('../pages/arrays/search/Search.vue')
     },
     {
-      path: 'iterables',
-      component: () => import('../pages/arrays/iterables/Iterables.vue')
-    },
-    { path: 'sets', component: () => import('../pages/arrays/sets/Sets.vue') },
-    {
       path: 'transformations',
       component: () =>
         import('../pages/arrays/transformations/Transformations.vue')
     },
+    {
+      path: 'iterables',
+      component: () => import('../pages/arrays/iterables/Iterables.vue')
+    },
+    { path: 'sets', component: () => import('../pages/arrays/sets/Sets.vue') },
     {
       path: 'histograms',
       component: () => import('../pages/arrays/histograms/Histograms.vue')
@@ -142,6 +142,11 @@ const geographies: RouteRecordRaw = {
       component: () => import('../pages/geographies/paths/Paths.vue')
     },
     {
+      path: 'projections',
+      component: () =>
+        import('../pages/geographies/projections/Projections.vue')
+    },
+    {
       path: 'raw-projections',
       component: () =>
         import('../pages/geographies/raw-projections/RawProjections.vue')
@@ -163,6 +168,10 @@ const geographies: RouteRecordRaw = {
     {
       path: 'transforms',
       component: () => import('../pages/geographies/transforms/Transforms.vue')
+    },
+    {
+      path: 'clipping',
+      component: () => import('../pages/geographies/clipping/Clipping.vue')
     }
   ]
 }

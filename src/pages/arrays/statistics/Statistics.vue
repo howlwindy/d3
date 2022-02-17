@@ -1,36 +1,41 @@
 <script setup lang="ts">
-import * as d3 from 'd3'
-import { STATISTICS_SRC } from './src.data'
-
-const DATA = ['1', 'a']
-const min = [`d3.min(DATA) => ${d3.min(DATA)}`]
-// const minIndex = d3.minIndex()
-// const max = d3.max()
-// const maxIndex = d3.maxIndex()
-// const extent = d3.extent()
-// const sum = d3.sum()
-// const mean = d3.mean()
-// const median = d3.median()
-// const mode = d3.mode()
-// const cumsum = d3.cumsum()
-// const rank = d3.rank()
-// const quantile = d3.quantile()
-// const quantileSorted = d3.quantileSorted()
-// const deviation = d3.deviation()
-// const fcumsum = d3.fcumsum()
-// const fsum = d3.fsum()
-// const adder = new d3.Adder()
-// const add = adder.add()
-// const valueOf = adder.valueOf()
+import MinVue from '@/models/arrays/statistics/Min.vue'
+import MinIndexVue from '@/models/arrays/statistics/MinIndex.vue'
+import MaxVue from '@/models/arrays/statistics/Max.vue'
+import MaxIndexVue from '@/models/arrays/statistics/MaxIndex.vue'
+import ExtentVue from '@/models/arrays/statistics/Extent.vue'
+import SumVue from '@/models/arrays/statistics/Sum.vue'
+import MeanVue from '@/models/arrays/statistics/Mean.vue'
+import MedianVue from '@/models/arrays/statistics/Median.vue'
+import ModeVue from '@/models/arrays/statistics/Mode.vue'
+import CumsumVue from '@/models/arrays/statistics/Cumsum.vue'
+import RankVue from '@/models/arrays/statistics/Rank.vue'
+import QuantileVue from '@/models/arrays/statistics/Quantile.vue'
+import QuantileSortedVue from '@/models/arrays/statistics/QuantileSorted.vue'
+import VarianceVue from '@/models/arrays/statistics/Variance.vue'
+import DeviationVue from '@/models/arrays/statistics/Deviation.vue'
+import FcumsumVue from '@/models/arrays/statistics/Fcumsum.vue'
+import FsumVue from '@/models/arrays/statistics/Fsum.vue'
+import AdderVue from '@/models/arrays/statistics/Adder.vue'
 </script>
 <template>
-  <h4>statistics</h4>
-  <pre><code>DATA = {{ DATA }}</code></pre>
-  <pre><code>{{ min[0] }}</code></pre>
-  <pre
-    v-for="(v, k) of STATISTICS_SRC"
-    :key="k"
-    v-highlight
-  ><code class="typescript">{{ v.join('\n') }}</code></pre>
+  <MinVue></MinVue>
+  <MinIndexVue></MinIndexVue>
+  <MaxVue></MaxVue>
+  <MaxIndexVue></MaxIndexVue>
+  <ExtentVue></ExtentVue>
+  <SumVue></SumVue>
+  <MeanVue></MeanVue>
+  <MedianVue></MedianVue>
+  <ModeVue></ModeVue>
+  <CumsumVue></CumsumVue>
+  <RankVue></RankVue>
+  <QuantileVue></QuantileVue>
+  <QuantileSortedVue></QuantileSortedVue>
+  <VarianceVue></VarianceVue>
+  <DeviationVue></DeviationVue>
+  <FcumsumVue></FcumsumVue>
+  <FsumVue></FsumVue>
+  <AdderVue></AdderVue>
 </template>
 <style scoped></style>
