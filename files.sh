@@ -3,1372 +3,958 @@
 cd src/models
 
 # arrays
-Arrays (d3-array)
+mkdir arrays
+cd arrays
 # arrays -> statistics
-Statistics
-d3.min
-d3.minIndex
-d3.max
-d3.maxIndex
-d3.extent
-d3.sum
-d3.mean
-d3.median
-d3.mode
-d3.cumsum
-d3.rank
-d3.quantile
-d3.quantileSorted
-d3.variance
-d3.deviation
-d3.fcumsum
-d3.fsum
-new d3.Adder
-adder.add
-adder.valueOf
+mkdir statistics
+cd statistics
+touch Min
+touch MinIndex
+touch Max
+touch MaxIndex
+touch Extent
+touch Sum
+touch Mean
+touch Median
+touch Mode
+touch Cumsum
+touch Rank
+touch Quantile
+touch QuantileSorted
+touch Variance
+touch Deviation
+touch Fcumsum
+touch Fsum
+touch Adder
 
 # arrays -> search
-Search
+cd ../
+mkdir search
+cd search
 
-d3.least
-d3.leastIndex
-d3.greatest
-d3.greatestIndex
-d3.bisectCenter
-d3.bisectLeft
-d3.bisect
-d3.bisectRight
-d3.bisector
-bisector.center
-bisector.left
-bisector.right
-d3.quickselect
-d3.ascending
-d3.descending
+touch Least
+touch LeastIndex
+touch Greatest
+touch GreatestIndex
+touch BisectCenter
+touch BisectLeft
+touch Bisect
+touch BisectRight
+touch Bisector
+touch Quickselect
+touch Ascending
+touch Descending
 
 # arrays -> transformations
-Transformations
+cd ../
+mkdir transformations
+cd transformations
 
-d3.flatGroup
-d3.flatRollup
-d3.group
-d3.groups
-d3.groupSort
-d3.index
-d3.indexes
-d3.rollup
-d3.rollups
-d3.count
-d3.cross
-d3.merge
-d3.pairs
-d3.permute
-d3.shuffle
-d3.shuffler
-d3.ticks
-d3.tickIncrement
-d3.tickStep
-d3.nice
-d3.range
-d3.transpose
-d3.zip
+touch FlatGroup
+touch FlatRollup
+touch Group
+touch Groups
+touch GroupSort
+touch Index
+touch Indexes
+touch Rollup
+touch Rollups
+touch Count
+touch Cross
+touch Merge
+touch Pairs
+touch Permute
+touch Shuffle
+touch Shuffler
+touch Ticks
+touch TickIncrement
+touch TickStep
+touch Nice
+touch Range
+touch Transpose
+touch Zip
 
 # arrays -> iterables
-Iterables
-d3.every
-d3.some
-d3.filter
-d3.map
-d3.reduce
-d3.reverse
-d3.sort
+cd ../
+mkdir iterables
+cd iterables
+
+touch Every
+touch Some
+touch Filter
+touch Map
+touch Reduce
+touch Reverse
+touch Sort
 
 # arrays -> sets
-Sets
-d3.difference
-d3.disjoint
-d3.intersection
-d3.superset
-d3.subset
-d3.union
+cd ../
+mkdir sets
+cd sets
+
+touch Difference
+touch Disjoint
+touch Intersection
+touch Superset
+touch Subset
+touch Union
 
 # arrays -> histograms
-Histograms
+cd ../
+mkdir histograms
+cd histograms
 
-d3.bin
-bin
-bin.value
-bin.domain
-bin.thresholds
-d3.thresholdFreedmanDiaconis
-d3.thresholdScott
-d3.thresholdSturges
+touch Bin
+touch ThresholdFreedmanDiaconis
+touch ThresholdScott
+touch ThresholdSturges
 
 # arrays -> interning
-Interning
-d3.InternMap
-d3.InternSet
+cd ../
+mkdir interning
+cd interning
+touch InternMap
+touch InternSet
 
 # axes
-Axes (d3-axis)
+cd ../../
+mkdir axes
+cd axes
 
-d3.axisTop
-d3.axisRight
-d3.axisBottom
-d3.axisLeft
-axis
-axis.scale
-axis.ticks
-axis.tickArguments
-axis.tickValues
-axis.tickFormat
-axis.tickSize
-axis.tickSizeInner
-axis.tickSizeOuter
-axis.tickPadding
-axis.offset
+touch AxisTop
+touch AxisRight
+touch AxisBottom
+touch AxisLeft
 
 # brushes
-Brushes (d3-brush)
+cd ../
+mkdir brushes
+cd brushes
 
-d3.brush
-d3.brushX
-d3.brushY
-brush
-brush.move
-brush.clear
-brush.extent
-brush.filter
-brush.touchable
-brush.keyModifiers
-brush.handleSize
-brush.on
-d3.brushSelection
+touch Brush
+touch BrushX
+touch BrushY
+touch BrushSelection
 
 # chords
-Chords (d3-chord)
-d3.chord
-chord
-chord.padAngle
-chord.sortGroups
-chord.sortSubgroups
-chord.sortChords
-d3.chordDirected
-d3.chordTranspose
-d3.ribbon
-ribbon
-ribbon.source
-ribbon.target
-ribbon.radius
-ribbon.sourceRadius
-ribbon.targetRadius
-ribbon.startAngle
-ribbon.endAngle
-ribbon.padAngle
-ribbon.context
-d3.ribbonArrow
-ribbonArrow.headRadius
+cd ../
+mkdir chords
+cd chords
+
+touch Chord
+touch ChordDirected
+touch ChordTranspose
+touch Ribbon
+touch RibbonArrow
 
 # colors
-Colors (d3-color)
+cd ../
+mkdir colors
+cd colors
 
-d3.color
-color.opacity
-color.rgb
-color.copy
-color.brighter
-color.darker
-color.displayable
-color.formatHex
-color.formatHsl
-color.formatRgb
-color.toString
-d3.rgb
-d3.hsl
-d3.lab
-d3.gray
-d3.hcl
-d3.lch
-d3.cubehelix
+touch Color
+touch Rgb
+touch Hsl
+touch Lab
+touch Gray
+touch Hcl
+touch Lch
+touch Cubehelix
 
 # color schemes
-Color Schemes (d3-scale-chromatic)
+cd ../
+mkdir color-schemes
+cd color-schemes
 
 # color schemes -> categorical
-Categorical
-d3.schemeCategory10
-d3.schemeAccent
-d3.schemeDark2
-d3.schemePaired
-d3.schemePastel1
-d3.schemePastel2
-d3.schemeSet1
-d3.schemeSet2
-d3.schemeSet3
-d3.schemeTableau10
+mkdir categorical
+cd categorical
+
+touch SchemeCategory10
+touch SchemeAccent
+touch SchemeDark2
+touch SchemePaired
+touch SchemePastel1
+touch SchemePastel2
+touch SchemeSet1
+touch SchemeSet2
+touch SchemeSet3
+touch SchemeTableau10
 
 # color schemes -> diverging
-Diverging
-d3.interpolateBrBG
-d3.interpolatePiYG
-d3.interpolatePRGn
-d3.interpolatePuOr
-d3.interpolateRdBu
-d3.interpolateRdGy
-d3.interpolateRdYlBu
-d3.interpolateRdYlGn
-d3.interpolateSpectral
-d3.schemeBrBG
-d3.schemePiYG
-d3.schemePRGn
-d3.schemePuOr
-d3.schemeRdBu
-d3.schemeRdGy
-d3.schemeRdYlBu
-d3.schemeRdYlGn
-d3.schemeSpectral
+cd ../
+mkdir diverging
+cd diverging
+
+touch InterpolateBrBG
+touch InterpolatePiYG
+touch InterpolatePRGn
+touch InterpolatePuOr
+touch InterpolateRdBu
+touch InterpolateRdGy
+touch InterpolateRdYlBu
+touch InterpolateRdYlGn
+touch InterpolateSpectral
+touch SchemeBrBG
+touch SchemePiYG
+touch SchemePRGn
+touch SchemePuOr
+touch SchemeRdBu
+touch SchemeRdGy
+touch SchemeRdYlBu
+touch SchemeRdYlGn
+touch SchemeSpectral
 
 # color schemes -> sequential single hue
-Sequential (Single Hue)
-d3.interpolateBlues
-d3.interpolateGreens
-d3.interpolateGreys
-d3.interpolateOranges
-d3.interpolatePurples
-d3.interpolateReds
-d3.schemeBlues
-d3.schemeGreens
-d3.schemeGreys
-d3.schemeOranges
-d3.schemePurples
-d3.schemeReds
+cd ../
+mkdir sequential-single-hue
+cd sequential-single-hue
+
+touch InterpolateBlues
+touch InterpolateGreens
+touch InterpolateGreys
+touch InterpolateOranges
+touch InterpolatePurples
+touch InterpolateReds
+touch SchemeBlues
+touch SchemeGreens
+touch SchemeGreys
+touch SchemeOranges
+touch SchemePurples
+touch SchemeReds
 
 # color schemes -> sequential multi hue
-Sequential (Multi-Hue)
-d3.interpolateBuGn
-d3.interpolateBuPu
-d3.interpolateCividis
-d3.interpolateCool
-d3.interpolateCubehelixDefault
-d3.interpolateGnBu
-d3.interpolateInferno
-d3.interpolateMagma
-d3.interpolateOrRd
-d3.interpolatePlasma
-d3.interpolatePuBu
-d3.interpolatePuBuGn
-d3.interpolatePuRd
-d3.interpolateRdPu
-d3.interpolateTurbo
-d3.interpolateViridis
-d3.interpolateWarm
-d3.interpolateYlGn
-d3.interpolateYlGnBu
-d3.interpolateYlOrBr
-d3.interpolateYlOrRd
-d3.schemeBuGn
-d3.schemeBuPu
-d3.schemeGnBu
-d3.schemeOrRd
-d3.schemePuBu
-d3.schemePuBuGn
-d3.schemePuRd
-d3.schemeRdPu
-d3.schemeYlGn
-d3.schemeYlGnBu
-d3.schemeYlOrBr
-d3.schemeYlOrRd
+cd ../
+mkdir sequential-multi-hue
+cd sequential-multi-hue
+
+touch InterpolateBuGn
+touch InterpolateBuPu
+touch InterpolateCividis
+touch InterpolateCool
+touch InterpolateCubehelixDefault
+touch InterpolateGnBu
+touch InterpolateInferno
+touch InterpolateMagma
+touch InterpolateOrRd
+touch InterpolatePlasma
+touch InterpolatePuBu
+touch InterpolatePuBuGn
+touch InterpolatePuRd
+touch InterpolateRdPu
+touch InterpolateTurbo
+touch InterpolateViridis
+touch InterpolateWarm
+touch InterpolateYlGn
+touch InterpolateYlGnBu
+touch InterpolateYlOrBr
+touch InterpolateYlOrRd
+touch SchemeBuGn
+touch SchemeBuPu
+touch SchemeGnBu
+touch SchemeOrRd
+touch SchemePuBu
+touch SchemePuBuGn
+touch SchemePuRd
+touch SchemeRdPu
+touch SchemeYlGn
+touch SchemeYlGnBu
+touch SchemeYlOrBr
+touch SchemeYlOrRd
 
 # color schemes -> cyclical
-Cyclical
-d3.interpolateRainbow
-d3.interpolateSinebow
+cd ../
+mkdir cyclical
+cd cyclical
+
+touch InterpolateRainbow
+touch InterpolateSinebow
 
 # contours
-Contours (d3-contour)
+cd ../../
+mkdir contours
+cd contours
 
-d3.contours
-contours
-contours.contour
-contours.size
-contours.smooth
-contours.thresholds
-d3.contourDensity
-density
-density.x
-density.y
-density.weight
-density.size
-density.cellSize
-density.thresholds
-density.bandwidth
+touch Contours
+touch ContourDensity
 
 # voronoi diagrams
-Voronoi Diagrams (d3-delaunay)
+cd ../
+mkdir voronoi-diagrams
+cd voronoi-diagrams
 
 new Delaunay
-Delaunay.from
-delaunay.points
-delaunay.halfedges
-delaunay.hull
-delaunay.triangles
-delaunay.inedges
-delaunay.find
-delaunay.neighbors
-delaunay.render
-delaunay.renderHull
-delaunay.renderTriangle
-delaunay.renderPoints
-delaunay.hullPolygon
-delaunay.trianglePolygons
-delaunay.trianglePolygon
-delaunay.update
-delaunay.voronoi
-voronoi.delaunay
-voronoi.circumcenters
-voronoi.vectors
-voronoi.xmin
-voronoi.ymin
-voronoi.xmax
-voronoi.ymax
-voronoi.contains
-voronoi.neighbors
-voronoi.render
-voronoi.renderBounds
-voronoi.renderCell
-voronoi.cellPolygons
-voronoi.cellPolygon
-voronoi.update
 
 # dispatches
-Dispatches (d3-dispatch)
+cd ../
+mkdir dispatches
+cd dispatches
 
-d3.dispatch
-dispatch.on
-dispatch.copy
-dispatch.call
-dispatch.apply
+touch Dispatch
 
 # dragging
-Dragging (d3-drag)
+cd ../
+mkdir dragging
+cd dragging
 
-d3.drag
-drag
-drag.container
-drag.filter
-drag.touchable
-drag.subject
-drag.clickDistance
-drag.on
-d3.dragDisable
-d3.dragEnable
-event.on
+touch Drag
+touch DragDisable
+touch DragEnable
 
 # delimiter-separated values
-Delimiter-Separated Values (d3-dsv)
+cd ../
+mkdir delimiter-separated-values
+cd delimiter-separated-values
 
-d3.csvParse
-d3.csvParseRows
-d3.csvFormat
-d3.csvFormatBody
-d3.csvFormatRows
-d3.csvFormatRow
-d3.csvFormatValue
-d3.tsvParse
-d3.tsvParseRows
-d3.tsvFormat
-d3.tsvFormatBody
-d3.tsvFormatRows
-d3.tsvFormatRow
-d3.tsvFormatValue
-d3.dsvFormat
-dsv.parse
-dsv.parseRows
-dsv.format
-dsv.formatBody
-dsv.formatRows
-dsv.formatRow
-dsv.formatValue
-d3.autoType
+touch CsvParse
+touch CsvParseRows
+touch CsvFormat
+touch CsvFormatBody
+touch CsvFormatRows
+touch CsvFormatRow
+touch CsvFormatValue
+touch TsvParse
+touch TsvParseRows
+touch TsvFormat
+touch TsvFormatBody
+touch TsvFormatRows
+touch TsvFormatRow
+touch TsvFormatValue
+touch DsvFormat
+touch AutoType
 
 # easings
-Easings (d3-ease)
+cd ../
+mkdir easings
+cd easings
 
-ease
-d3.easeLinear
-d3.easePolyIn
-d3.easePolyOut
-d3.easePoly
-d3.easePolyInOut
-poly.exponent
-d3.easeQuadIn
-d3.easeQuadOut
-d3.easeQuad
-d3.easeQuadInOut
-d3.easeCubicIn
-d3.easeCubicOut
-d3.easeCubic
-d3.easeCubicInOut
-d3.easeSinIn
-d3.easeSinOut
-d3.easeSin
-d3.easeSinInOut
-d3.easeExpIn
-d3.easeExpOut
-d3.easeExp
-d3.easeExpInOut
-d3.easeCircleIn
-d3.easeCircleOut
-d3.easeCircle
-d3.easeCircleInOut
-d3.easeElasticIn
-d3.easeElastic
-d3.easeElasticOut
-d3.easeElasticInOut
-elastic.amplitude
-elastic.period
-d3.easeBackIn
-d3.easeBackOut
-d3.easeBack
-d3.easeBackInOut
-back.overshoot
-d3.easeBounceIn
-d3.easeBounce
-d3.easeBounceOut
-d3.easeBounceInOut
+touch EaseLinear
+touch EasePolyIn
+touch EasePolyOut
+touch EasePoly
+touch EasePolyInOut
+touch EaseQuadIn
+touch EaseQuadOut
+touch EaseQuad
+touch EaseQuadInOut
+touch EaseCubicIn
+touch EaseCubicOut
+touch EaseCubic
+touch EaseCubicInOut
+touch EaseSinIn
+touch EaseSinOut
+touch EaseSin
+touch EaseSinInOut
+touch EaseExpIn
+touch EaseExpOut
+touch EaseExp
+touch EaseExpInOut
+touch EaseCircleIn
+touch EaseCircleOut
+touch EaseCircle
+touch EaseCircleInOut
+touch EaseElasticIn
+touch EaseElastic
+touch EaseElasticOut
+touch EaseElasticInOut
+touch EaseBackIn
+touch EaseBackOut
+touch EaseBack
+touch EaseBackInOut
+touch EaseBounceIn
+touch EaseBounce
+touch EaseBounceOut
+touch EaseBounceInOut
 
 # fetches
-Fetches (d3-fetch)
+cd ../
+mkdir fetches
+cd fetches
 
-d3.blob
-d3.buffer
-d3.csv
-d3.dsv
-d3.html
-d3.image
-d3.json
-d3.svg
-d3.text
-d3.tsv
-d3.xml
+touch Blob
+touch Buffer
+touch Csv
+touch Dsv
+touch Html
+touch Image
+touch Json
+touch Svg
+touch Text
+touch Tsv
+touch Xml
 
 # forces
-Forces (d3-force)
+cd ../
+mkdir forces
+cd forces
 
-d3.forceSimulation
-simulation.restart
-simulation.stop
-simulation.tick
-simulation.nodes
-simulation.alpha
-simulation.alphaMin
-simulation.alphaDecay
-simulation.alphaTarget
-simulation.velocityDecay
-simulation.force
-simulation.find
-simulation.randomSource
-simulation.on
-force
-force.initialize
-d3.forceCenter
-center.x
-center.y
-center.strength
-d3.forceCollide
-collide.radius
-collide.strength
-collide.iterations
-d3.forceLink
-link.links
-link.id
-link.distance
-link.strength
-link.iterations
-d3.forceManyBody
-manyBody.strength
-manyBody.theta
-manyBody.distanceMin
-manyBody.distanceMax
-d3.forceX
-x.strength
-x.x
-d3.forceY
-y.strength
-y.y
-d3.forceRadial
-radial.strength
-radial.radius
-radial.x
-radial.y
+touch ForceSimulation
+touch ForceCenter
+touch ForceCollide
+touch ForceLink
+touch ForceManyBody
+touch ForceX
+touch ForceY
+touch ForceRadial
 
 # number formats
-Number Formats (d3-format)
+cd ../
+mkdir number-formats
+cd number-formats
 
-d3.format
-d3.formatPrefix
-locale.format
-locale.formatPrefix
-d3.formatSpecifier
-new d3.FormatSpecifier
-d3.precisionFixed
-d3.precisionPrefix
-d3.precisionRound
-d3.formatLocale
-d3.formatDefaultLocale
+touch Format
+touch FormatPrefix
+touch FormatSpecifier
+touch FormatSpecifier
+touch PrecisionFixed
+touch PrecisionPrefix
+touch PrecisionRound
+touch FormatLocale
+touch FormatDefaultLocale
 
 # geographies
-Geographies (d3-geo)
+cd ../
+mkdir geographies
+cd geographies
 
 # geographies -> paths
-Paths
-d3.geoPath
-path
-path.area
-path.bounds
-path.centroid
-path.measure
-path.projection
-path.context
-path.pointRadius
+mkdir paths
+cd paths
+
+touch GeoPath
 
 # geographies -> projections
-Projections
-projection
-projection.invert
-projection.stream
-projection.preclip
-projection.postclip
-projection.clipAngle
-projection.clipExtent
-projection.scale
-projection.translate
-projection.center
-projection.angle
-projection.reflectX
-projection.reflectY
-projection.rotate
-projection.precision
-projection.fitExtent
-projection.fitSize
-projection.fitWidth
-projection.fitHeight
-d3.geoAzimuthalEqualArea
-d3.geoAzimuthalEqualAreaRaw
-d3.geoAzimuthalEquidistant
-d3.geoAzimuthalEquidistantRaw
-d3.geoGnomonic
-d3.geoGnomonicRaw
-d3.geoOrthographic
-d3.geoOrthographicRaw
-d3.geoStereographic
-d3.geoStereographicRaw
-d3.geoEqualEarth
-d3.geoEqualEarthRaw
-d3.geoAlbersUsa
-conic.parallels
-d3.geoAlbers
-d3.geoConicConformal
-d3.geoConicConformalRaw
-d3.geoConicEqualArea
-d3.geoConicEqualAreaRaw
-d3.geoConicEquidistant
-d3.geoConicEquidistantRaw
-d3.geoEquirectangular
-d3.geoEquirectangularRaw
-d3.geoMercator
-d3.geoMercatorRaw
-d3.geoTransverseMercator
-d3.geoTransverseMercatorRaw
-d3.geoNaturalEarth1
-d3.geoNaturalEarth1Raw
+cd ../
+mkdir projections
+cd projections
+
+touch GeoAzimuthalEqualArea
+touch GeoAzimuthalEqualAreaRaw
+touch GeoAzimuthalEquidistant
+touch GeoAzimuthalEquidistantRaw
+touch GeoGnomonic
+touch GeoGnomonicRaw
+touch GeoOrthographic
+touch GeoOrthographicRaw
+touch GeoStereographic
+touch GeoStereographicRaw
+touch GeoEqualEarth
+touch GeoEqualEarthRaw
+touch GeoAlbersUsa
+touch GeoAlbers
+touch GeoConicConformal
+touch GeoConicConformalRaw
+touch GeoConicEqualArea
+touch GeoConicEqualAreaRaw
+touch GeoConicEquidistant
+touch GeoConicEquidistantRaw
+touch GeoEquirectangular
+touch GeoEquirectangularRaw
+touch GeoMercator
+touch GeoMercatorRaw
+touch GeoTransverseMercator
+touch GeoTransverseMercatorRaw
+touch GeoNaturalEarth1
+touch GeoNaturalEarth1Raw
 
 # geographies -> raw projections
-Raw projections
-project
-project.invert
-d3.geoProjection
-d3.geoProjectionMutator
+cd ../
+mkdir raw-projections
+cd raw-projections
+
+touch GeoProjection
+touch GeoProjectionMutator
 
 # geographies -> spherical math
-Spherical Math
-d3.geoArea
-d3.geoBounds
-d3.geoCentroid
-d3.geoDistance
-d3.geoLength
-d3.geoInterpolate
-d3.geoContains
-d3.geoRotation
-rotation
-rotation.invert
+cd ../
+mkdir spherical-math
+cd spherical-math
+
+touch GeoArea
+touch GeoBounds
+touch GeoCentroid
+touch GeoDistance
+touch GeoLength
+touch GeoInterpolate
+touch GeoContains
+touch GeoRotation
 
 # geographies -> spherical shapes
-Spherical Shapes
-d3.geoCircle
-circle
-circle.center
-circle.radius
-circle.precision
-d3.geoGraticule
-graticule
-graticule.lines
-graticule.outline
-graticule.extent
-graticule.extentMajor
-graticule.extentMinor
-graticule.step
-graticule.stepMajor
-graticule.stepMinor
-graticule.precision
-d3.geoGraticule10
+cd ../
+mkdir spherical-shapes
+cd spherical-shapes
+
+touch GeoCircle
+touch GeoGraticule
+touch GeoGraticule10
 
 # geographies -> streams
-Streams
-d3.geoStream
-stream.point
-stream.lineStart
-stream.lineEnd
-stream.polygonStart
-stream.polygonEnd
-stream.sphere
+cd ../
+mkdir streams
+cd streams
+touch GeoStream
 
 # geographies -> transforms
-Transforms
-d3.geoTransform
-d3.geoIdentity
+cd ../
+mkdir transforms
+cd transforms
+
+touch GeoTransform
+touch GeoIdentity
 
 # geographies -> clipping
-Clipping
-preclip
-postclip
-d3.geoClipAntimeridian
-d3.geoClipCircle
-d3.geoClipRectangle
+cd ../
+mkdir clipping
+cd clipping
+
+touch GeoClipAntimeridian
+touch GeoClipCircle
+touch GeoClipRectangle
 
 # hierarchies
-Hierarchies (d3-hierarchy)
+cd ../../
+mkdir hierarchies
 
-d3.hierarchy
-node.ancestors
-node.descendants
-node.leaves
-node.find
-node.path
-node.links
-node.sum
-node.count
-node.sort
-node[Symbol.iterator]
-node.each
-node.eachAfter
-node.eachBefore
-node.copy
-d3.stratify
-stratify
-stratify.id
-stratify.parentId
-stratify.path
-d3.cluster
-cluster
-cluster.size
-cluster.nodeSize
-cluster.separation
-d3.tree
-tree
-tree.size
-tree.nodeSize
-tree.separation
-d3.treemap
-treemap
-treemap.tile
-treemap.size
-treemap.round
-treemap.padding
-treemap.paddingInner
-treemap.paddingOuter
-treemap.paddingTop
-treemap.paddingRight
-treemap.paddingBottom
-treemap.paddingLeft
-d3.treemapBinary
-d3.treemapDice
-d3.treemapSlice
-d3.treemapSliceDice
-d3.treemapSquarify
-d3.treemapResquarify
-squarify.ratio
-d3.partition
-partition
-partition.size
-partition.round
-partition.padding
-d3.pack
-pack
-pack.radius
-pack.size
-pack.padding
-d3.packSiblings
-d3.packEnclose
+touch Hierarchy
+touch Stratify
+touch Cluster
+touch Tree
+touch Treemap
+touch TreemapBinary
+touch TreemapDice
+touch TreemapSlice
+touch TreemapSliceDice
+touch TreemapSquarify
+touch TreemapResquarify
+touch Partition
+touch Pack
+touch PackSiblings
+touch PackEnclose
 
 # interpolators
-Interpolators (d3-interpolate)
+cd ../
+mkdir interpolators
+cd interpolators
 
-d3.interpolate
-d3.interpolateNumber
-d3.interpolateRound
-d3.interpolateString
-d3.interpolateDate
-d3.interpolateArray
-d3.interpolateNumberArray
-d3.interpolateObject
-d3.interpolateTransformCss
-d3.interpolateTransformSvg
-d3.interpolateZoom
-interpolateZoom.rho
-d3.interpolateDiscrete
-d3.quantize
-d3.interpolateRgb
-d3.interpolateRgbBasis
-d3.interpolateRgbBasisClosed
-d3.interpolateHsl
-d3.interpolateHslLong
-d3.interpolateLab
-d3.interpolateHcl
-d3.interpolateHclLong
-d3.interpolateCubehelix
-d3.interpolateCubehelixLong
-interpolate.gamma
-d3.interpolateHue
-d3.interpolateBasis
-d3.interpolateBasisClosed
-d3.piecewise
+touch Interpolate
+touch InterpolateNumber
+touch InterpolateRound
+touch InterpolateString
+touch InterpolateDate
+touch InterpolateArray
+touch InterpolateNumberArray
+touch InterpolateObject
+touch InterpolateTransformCss
+touch InterpolateTransformSvg
+touch InterpolateZoom
+touch InterpolateDiscrete
+touch Quantize
+touch InterpolateRgb
+touch InterpolateRgbBasis
+touch InterpolateRgbBasisClosed
+touch InterpolateHsl
+touch InterpolateHslLong
+touch InterpolateLab
+touch InterpolateHcl
+touch InterpolateHclLong
+touch InterpolateCubehelix
+touch InterpolateCubehelixLong
+touch InterpolateHue
+touch InterpolateBasis
+touch InterpolateBasisClosed
+touch Piecewise
 
 # paths
-Paths (d3-path)
+cd ../
+mkdir paths
+cd paths
 
-d3.path
-path.moveTo
-path.closePath
-path.lineTo
-path.quadraticCurveTo
-path.bezierCurveTo
-path.arcTo
-path.arc
-path.rect
-path.toString
+touch Path
 
 # polygons
-Polygons (d3-polygon)
+cd ../
+mkdir polygons
+cd polygons
 
-d3.polygonArea
-d3.polygonCentroid
-d3.polygonHull
-d3.polygonContains
-d3.polygonLength
+touch PolygonArea
+touch PolygonCentroid
+touch PolygonHull
+touch PolygonContains
+touch PolygonLength
 
 # quadtrees
-Quadtrees (d3-quadtree)
+cd ../
+mkdir quadtrees
+cd quadtrees
 
-d3.quadtree
-quadtree.x
-quadtree.y
-quadtree.extent
-quadtree.cover
-quadtree.add
-quadtree.addAll
-quadtree.remove
-quadtree.removeAll
-quadtree.copy
-quadtree.root
-quadtree.data
-quadtree.size
-quadtree.find
-quadtree.visit
-quadtree.visitAfter
+touch Quadtree
 
 # random numbers
-Random Numbers (d3-random)
+cd ../
+mkdir random-numbers
+cd random-numbers
 
-d3.randomUniform
-d3.randomInt
-d3.randomNormal
-d3.randomLogNormal
-d3.randomBates
-d3.randomIrwinHall
-d3.randomExponential
-d3.randomPareto
-d3.randomBernoulli
-d3.randomGeometric
-d3.randomBinomial
-d3.randomGamma
-d3.randomBeta
-d3.randomWeibull
-d3.randomCauchy
-d3.randomLogistic
-d3.randomPoisson
-random.source
-d3.randomLcg
+touch RandomUniform
+touch RandomInt
+touch RandomNormal
+touch RandomLogNormal
+touch RandomBates
+touch RandomIrwinHall
+touch RandomExponential
+touch RandomPareto
+touch RandomBernoulli
+touch RandomGeometric
+touch RandomBinomial
+touch RandomGamma
+touch RandomBeta
+touch RandomWeibull
+touch RandomCauchy
+touch RandomLogistic
+touch RandomPoisson
+touch RandomLcg
 
 # scales
-Scales (d3-scale)
+cd ../
+mkdir scales
+cd scales
 
 # scales -> continuous scales
-Continuous Scales
+mkdir continuous
+cd continuous
 
-continuous
-continuous.invert
-continuous.domain
-continuous.range
-continuous.rangeRound
-continuous.clamp
-continuous.unknown
-continuous.interpolate
-continuous.ticks
-continuous.tickFormat
-continuous.nice
-continuous.copy
-d3.tickFormat
-d3.scaleLinear
-d3.scalePow
-pow
-pow.invert
-pow.exponent
-pow.domain
-pow.range
-pow.rangeRound
-pow.clamp
-pow.interpolate
-pow.ticks
-pow.tickFormat
-pow.nice
-pow.copy
-d3.scaleSqrt
-d3.scaleLog
-log
-log.invert
-log.base
-log.domain
-log.range
-log.rangeRound
-log.clamp
-log.interpolate
-log.ticks
-log.tickFormat
-log.nice
-log.copy
-d3.scaleSymlog
-symlog.constant
-d3.scaleIdentity
-d3.scaleRadial
-d3.scaleTime
-time
-time.invert
-time.domain
-time.range
-time.rangeRound
-time.clamp
-time.interpolate
-time.ticks
-time.tickFormat
-time.nice
-time.copy
-d3.scaleUtc
+touch TickFormat
+touch ScaleLinear
+touch ScalePow
+touch ScaleSqrt
+touch ScaleLog
+touch ScaleSymlog
+touch ScaleIdentity
+touch ScaleRadial
+touch ScaleTime
+touch ScaleUtc
 
 # scales -> sequential scales
-Sequential Scales
+cd ../
+mkdir sequential
+cd sequential
 
-d3.scaleSequential
-sequential
-sequential.domain
-sequential.clamp
-sequential.interpolator
-sequential.range
-sequential.rangeRound
-sequential.copy
-d3.scaleSequentialLog
-d3.scaleSequentialPow
-d3.scaleSequentialSqrt
-d3.scaleSequentialSymlog
-d3.scaleSequentialQuantile
-sequentialQuantile.quantiles
+touch ScaleSequential
+touch ScaleSequentialLog
+touch ScaleSequentialPow
+touch ScaleSequentialSqrt
+touch ScaleSequentialSymlog
+touch ScaleSequentialQuantile
 
 # scales -> diverging scales
-Diverging Scales
+cd ../
+mkdir diverging
+cd diverging
 
-d3.scaleDiverging
-diverging
-diverging.domain
-diverging.clamp
-diverging.interpolator
-diverging.range
-diverging.rangeRound
-diverging.copy
-diverging.unknown
-d3.scaleDivergingLog
-d3.scaleDivergingPow
-d3.scaleDivergingSqrt
-d3.scaleDivergingSymlog
+touch ScaleDiverging
+touch ScaleDivergingLog
+touch ScaleDivergingPow
+touch ScaleDivergingSqrt
+touch ScaleDivergingSymlog
 
 # scales -> quantize scales
-Quantize Scales
+cd ../
+mkdir quantize
+cd quantize
 
-d3.scaleQuantize
-quantize
-quantize.invertExtent
-quantize.domain
-quantize.range
-quantize.ticks
-quantize.tickFormat
-quantize.nice
-quantize.thresholds
-quantize.copy
-d3.scaleQuantile
-quantile
-quantile.invertExtent
-quantile.domain
-quantile.range
-quantile.quantiles
-quantile.copy
-d3.scaleThreshold
-threshold
-threshold.invertExtent
-threshold.domain
-threshold.range
-threshold.copy
+touch ScaleQuantize
+touch ScaleQuantile
+touch ScaleThreshold
 
 # scales -> ordinal scales
-Ordinal Scales
+cd ../
+mkdir ordinal
+cd ordinal
 
-d3.scaleOrdinal
-ordinal
-ordinal.domain
-ordinal.range
-ordinal.unknown
-ordinal.copy
-d3.scaleImplicit
-d3.scaleBand
-band
-band.domain
-band.range
-band.rangeRound
-band.round
-band.paddingInner
-band.paddingOuter
-band.padding
-band.align
-band.bandwidth
-band.step
-band.copy
-d3.scalePoint
-point
-point.domain
-point.range
-point.rangeRound
-point.round
-point.padding
-point.align
-point.bandwidth
-point.step
-point.copy
+touch ScaleOrdinal
+touch ScaleImplicit
+touch ScaleBand
+touch ScalePoint
 
 # selections
-Selections (d3-selection)
+cd ../../
+mkdir selections
+cd selections
 
 # selections -> selecting elements
-Selecting Elements
-d3.selection
-d3.select
-d3.selectAll
-selection.select
-selection.selectAll
-selection.filter
-selection.merge
-selection.selectChild
-selection.selectChildren
-selection.selection
-d3.matcher
-d3.selector
-d3.selectorAll
-d3.window
-d3.style
+mkdir selecting-elements
+cd selecting-elements
+
+touch Selection
+touch Select
+touch SelectAll
+touch Matcher
+touch Selector
+touch SelectorAll
+touch Window
+touch Style
 
 # selections -> modifying elements
-Modifying Elements
-selection.attr
-selection.classed
-selection.style
-selection.property
-selection.text
-selection.html
-selection.append
-selection.insert
-selection.remove
-selection.clone
-selection.sort
-selection.order
-selection.raise
-selection.lower
-d3.create
-d3.creator
+cd ../
+mkdir modifying-elements
+cd modifying-elements
+
+touch Create
+touch Creator
 
 # selections -> joining data
-Joining Data
-selection.data
-selection.join
-selection.enter
-selection.exit
-selection.datum
+cd ../
+mkdir joining-data
+cd joining-data
 
 # selections -> handling events
-Handling Events
-selection.on
-selection.dispatch
-d3.pointer
-d3.pointers
+cd ../
+mkdir handling-events
+cd handling-events
+
+touch Pointer
+touch Pointers
 
 # selections -> control flow
-Control Flow
-selection.each
-selection.call
-selection.empty
-selection.nodes
-selection.node
-selection.size
-selection[Symbol.iterator]
+cd ../
+mkdir control-flow
+cd control-flow
 
 # selections -> local variables
-Local Variables
-d3.local
-local.set
-local.get
-local.remove
-local.toString
+cd ../
+mkdir local-variables
+cd local-variables
+
+touch Local
 
 # selections -> namespaces
-Namespaces
-d3.namespace
-d3.namespaces
+cd ../
+mkdir namespaces
+cd namespaces
+
+touch Namespace
+touch Namespaces
 
 # shapes
-Shapes (d3-shape)
+cd ../../
+mkdir shapes
+cd shapes
 
 # shapes -> arcs
-Arcs
+mkdir arcs
+cd arcs
 
-d3.arc
-arc
-arc.centroid
-arc.innerRadius
-arc.outerRadius
-arc.cornerRadius
-arc.startAngle
-arc.endAngle
-arc.padAngle
-arc.padRadius
-arc.context
+touch Arc
 
 # shapes -> pies
-Pies
+cd ../
+mkdir pies
+cd pies
 
-d3.pie
-pie
-pie.value
-pie.sort
-pie.sortValues
-pie.startAngle
-pie.endAngle
-pie.padAngle
+touch Pie
 
 # shapes -> lines
-Lines
+cd ../
+mkdir lines
+cd lines
 
-d3.line
-line
-line.x
-line.y
-line.defined
-line.curve
-line.context
-d3.lineRadial
-lineRadial
-lineRadial.angle
-lineRadial.radius
-lineRadial.defined
-lineRadial.curve
-lineRadial.context
+touch Line
+touch LineRadial
 
 # shapes -> areas
-Areas
+cd ../
+mkdir areas
+cd areas
 
-d3.area
-area
-area.x
-area.x0
-area.x1
-area.y
-area.y0
-area.y1
-area.defined
-area.curve
-area.context
-area.lineX0
-area.lineY0
-area.lineX1
-area.lineY1
-d3.areaRadial
-areaRadial
-areaRadial.angle
-areaRadial.startAngle
-areaRadial.endAngle
-areaRadial.radius
-areaRadial.innerRadius
-areaRadial.outerRadius
-areaRadial.defined
-areaRadial.curve
-areaRadial.context
-areaRadial.lineStartAngle
-areaRadial.lineInnerRadius
-areaRadial.lineEndAngle
-areaRadial.lineOuterRadius
+touch Area
+touch AreaRadial
 
 # shapes -> curves
-Curves
+cd ../
+mkdir curves
+cd curves
 
-d3.curveBasis
-d3.curveBasisClosed
-d3.curveBasisOpen
-d3.curveBundle
-bundle.beta
-d3.curveBumpX
-d3.curveBumpY
-d3.curveCardinal
-d3.curveCardinalClosed
-d3.curveCardinalOpen
-cardinal.tension
-d3.curveCatmullRom
-d3.curveCatmullRomClosed
-d3.curveCatmullRomOpen
-catmullRom.alpha
-d3.curveLinear
-d3.curveLinearClosed
-d3.curveMonotoneX
-d3.curveMonotoneY
-d3.curveNatural
-d3.curveStep
-d3.curveStepAfter
-d3.curveStepBefore
-curve.areaStart
-curve.areaEnd
-curve.lineStart
-curve.lineEnd
-curve.point
+touch CurveBasis
+touch CurveBasisClosed
+touch CurveBasisOpen
+touch CurveBundle
+touch CurveBumpX
+touch CurveBumpY
+touch CurveCardinal
+touch CurveCardinalClosed
+touch CurveCardinalOpen
+touch CurveCatmullRom
+touch CurveCatmullRomClosed
+touch CurveCatmullRomOpen
+touch CurveLinear
+touch CurveLinearClosed
+touch CurveMonotoneX
+touch CurveMonotoneY
+touch CurveNatural
+touch CurveStep
+touch CurveStepAfter
+touch CurveStepBefore
 
 # shapes -> links
-Links
+cd ../
+mkdir links
+cd links
 
-d3.link
-d3.linkVertical
-d3.linkHorizontal
-link
-link.source
-link.target
-link.x
-link.y
-link.context
-d3.linkRadial
-linkRadial.angle
-linkRadial.radius
+touch Link
+touch LinkVertical
+touch LinkHorizontal
+touch LinkRadial
 
 # shapes -> symbols
-Symbols
+cd ../
+mkdir symbols
+cd symbols
 
-d3.symbol
-symbol
-symbol.type
-symbol.size
-symbol.context
-d3.symbolsFill
-d3.symbolsStroke
-d3.symbolAsterisk
-d3.symbolCircle
-d3.symbolCross
-d3.symbolDiamond
-d3.symbolDiamond2
-d3.symbolPlus
-d3.symbolSquare
-d3.symbolSquare2
-d3.symbolStar
-d3.symbolTriangle
-d3.symbolTriangle2
-d3.symbolWye
-d3.symbolX
-d3.pointRadial
-symbolType.draw
+touch Symbol
+touch SymbolsFill
+touch SymbolsStroke
+touch SymbolAsterisk
+touch SymbolCircle
+touch SymbolCross
+touch SymbolDiamond
+touch SymbolDiamond2
+touch SymbolPlus
+touch SymbolSquare
+touch SymbolSquare2
+touch SymbolStar
+touch SymbolTriangle
+touch SymbolTriangle2
+touch SymbolWye
+touch SymbolX
+touch PointRadial
 
 # shapes -> stacks
-Stacks
+cd ../
+mkdir stacks
+cd stacks
 
-d3.stack
-stack
-stack.keys
-stack.value
-stack.order
-stack.offset
-d3.stackOrderAppearance
-d3.stackOrderAscending
-d3.stackOrderDescending
-d3.stackOrderInsideOut
-d3.stackOrderNone
-d3.stackOrderReverse
-d3.stackOffsetExpand
-d3.stackOffsetDiverging
-d3.stackOffsetNone
-d3.stackOffsetSilhouette
-d3.stackOffsetWiggle
+touch Stack
+touch StackOrderAppearance
+touch StackOrderAscending
+touch StackOrderDescending
+touch StackOrderInsideOut
+touch StackOrderNone
+touch StackOrderReverse
+touch StackOffsetExpand
+touch StackOffsetDiverging
+touch StackOffsetNone
+touch StackOffsetSilhouette
+touch StackOffsetWiggle
 
 # time formats
-Time Formats (d3-time-format)
+cd ../../
+mkdir time-formats
+cd time-formats
 
-d3.timeFormat
-d3.timeParse
-d3.utcFormat
-d3.utcParse
-d3.isoFormat
-d3.isoParse
-locale.format
-locale.parse
-locale.utcFormat
-locale.utcParse
-d3.timeFormatLocale
-d3.timeFormatDefaultLocale
+touch TimeFormat
+touch TimeParse
+touch UtcFormat
+touch UtcParse
+touch IsoFormat
+touch IsoParse
+touch TimeFormatLocale
+touch TimeFormatDefaultLocale
 
 # time intervals
-Time Intervals (d3-time)
+cd ../
+mkdir time-intervals
+cd time-intervals
 
-d3.timeInterval
-interval
-interval.floor
-interval.round
-interval.ceil
-interval.offset
-interval.range
-interval.filter
-interval.every
-interval.count
-d3.timeMillisecond, d3.utcMillisecond
-d3.timeMilliseconds, d3.utcMilliseconds
-d3.timeSecond, d3.utcSecond
-d3.timeSeconds, d3.utcSeconds
-d3.timeMinute, d3.utcMinute
-d3.timeMinutes, d3.utcMinutes
-d3.timeHour, d3.utcHour
-d3.timeHours, d3.utcHours
-d3.timeDay, d3.utcDay
-d3.timeDays, d3.utcDays
-d3.timeWeek, d3.utcWeek
-d3.timeWeeks, d3.utcWeeks
-d3.timeSunday, d3.utcSunday
-d3.timeSundays, d3.utcSundays
-d3.timeMonday, d3.utcMonday
-d3.timeMondays, d3.utcMondays
-d3.timeTuesday, d3.utcTuesday
-d3.timeTuesdays, d3.utcTuesdays
-d3.timeWednesday, d3.utcWednesday
-d3.timeWednesdays, d3.utcWednesdays
-d3.timeThursday, d3.utcThursday
-d3.timeThursdays, d3.utcThursdays
-d3.timeFriday, d3.utcFriday
-d3.timeFridays, d3.utcFridays
-d3.timeSaturday, d3.utcSaturday
-d3.timeSaturdays, d3.utcSaturdays
-d3.timeMonth, d3.utcMonth
-d3.timeMonths, d3.utcMonths
-d3.timeYear, d3.utcYear
-d3.timeYears, d3.utcYears
-d3.timeTicks, d3.utcTicks
-d3.timeTickInterval, d3.utcTickInterval
+touch TimeInterval
+touch TimeMillisecond
+touch UtcMillisecond
+touch TimeMilliseconds
+touch UtcMilliseconds
+touch TimeSecond
+touch UtcSecond
+touch TimeSeconds
+touch UtcSeconds
+touch TimeMinute
+touch UtcMinute
+touch TimeMinutes
+touch UtcMinutes
+touch TimeHour
+touch UtcHour
+touch TimeHours
+touch UtcHours
+touch TimeDay
+touch UtcDay
+touch TimeDays
+touch UtcDays
+touch TimeWeek
+touch UtcWeek
+touch TimeWeeks
+touch UtcWeeks
+touch TimeSunday
+touch UtcSunday
+touch TimeSundays
+touch UtcSundays
+touch TimeMonday
+touch UtcMonday
+touch TimeMondays
+touch UtcMondays
+touch TimeTuesday
+touch UtcTuesday
+touch TimeTuesdays
+touch UtcTuesdays
+touch TimeWednesday
+touch UtcWednesday
+touch TimeWednesdays
+touch UtcWednesdays
+touch TimeThursday
+touch UtcThursday
+touch TimeThursdays
+touch UtcThursdays
+touch TimeFriday
+touch UtcFriday
+touch TimeFridays
+touch UtcFridays
+touch TimeSaturday
+touch UtcSaturday
+touch TimeSaturdays
+touch UtcSaturdays
+touch TimeMonth
+touch UtcMonth
+touch TimeMonths
+touch UtcMonths
+touch TimeYear
+touch UtcYear
+touch TimeYears
+touch UtcYears
+touch TimeTicks
+touch UtcTicks
+touch TimeTickInterval
+touch UtcTickInterval
 
 # timers
-Timers (d3-timer)
+cd ../
+mkdir timers
+cd timers
 
-d3.now
-d3.timer
-timer.restart
-timer.stop
-d3.timerFlush
-d3.timeout
-d3.interval
+touch Now
+touch Timer
+touch TimerFlush
+touch Timeout
+touch Interval
 
 # transitions
-Transitions (d3-transition)
+cd ../
+mkdir transitions
+cd transitions
 
-selection.transition
-selection.interrupt
-d3.interrupt
-d3.transition
-transition.select
-transition.selectAll
-transition.selectChild
-transition.selectChildren
-transition.selection
-transition.filter
-transition.merge
-transition.transition
-d3.active
-transition.attr
-transition.attrTween
-transition.style
-transition.styleTween
-transition.text
-transition.textTween
-transition.remove
-transition.tween
-transition.delay
-transition.duration
-transition.ease
-transition.easeVarying
-transition.end
-transition.on
-transition.each
-transition.call
-transition.empty
-transition.nodes
-transition.node
-transition.size
+touch Interrupt
+touch Transition
+touch Active
 
 # zooming
-Zooming (d3-zoom)
+cd ../
+mkdir zooming
+cd zooming
 
-d3.zoom
-zoom
-zoom.transform
-zoom.translateBy
-zoom.translateTo
-zoom.scaleBy
-zoom.scaleTo
-zoom.constrain
-zoom.filter
-zoom.touchable
-zoom.wheelDelta
-zoom.extent
-zoom.scaleExtent
-zoom.translateExtent
-zoom.clickDistance
-zoom.tapDistance
-zoom.duration
-zoom.interpolate
-zoom.on
-d3.zoomTransform
-transform.scale
-transform.translate
-transform.apply
-transform.applyX
-transform.applyY
-transform.invert
-transform.invertX
-transform.invertY
-transform.rescaleX
-transform.rescaleY
-transform.toString
-d3.zoomIdentity.
+touch Zoom
+touch ZoomTransform
+touch ZoomIdentity.

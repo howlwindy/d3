@@ -142,9 +142,9 @@ const geographies: RouteRecordRaw = {
       component: () => import('../pages/geographies/paths/Paths.vue')
     },
     {
-      path: 'projections',
+      path: 'raw-projections',
       component: () =>
-        import('../pages/geographies/projections/Projections.vue')
+        import('../pages/geographies/raw-projections/RawProjections.vue')
     },
     {
       path: 'spherical-math',
@@ -229,24 +229,29 @@ const selections: RouteRecordRaw = {
   component: () => import('../pages/selections/Selections.vue'),
   children: [
     {
-      path: 'selecting',
-      component: () => import('../pages/selections/selecting/Selecting.vue')
+      path: 'selecting-elements',
+      component: () =>
+        import('../pages/selections/selecting-elements/SelectingElements.vue')
     },
     {
-      path: 'modifying',
-      component: () => import('../pages/selections/modifying/Modifying.vue')
+      path: 'modifying-elements',
+      component: () =>
+        import('../pages/selections/modifying-elements/ModifyingElements.vue')
     },
     {
-      path: 'data',
-      component: () => import('../pages/selections/data/Data.vue')
+      path: 'joining-data',
+      component: () =>
+        import('../pages/selections/joining-data/JoiningData.vue')
     },
     {
-      path: 'events',
-      component: () => import('../pages/selections/events/Events.vue')
+      path: 'handling-events',
+      component: () =>
+        import('../pages/selections/handling-events/HandlingEvents.vue')
     },
     {
-      path: 'control',
-      component: () => import('../pages/selections/control/Control.vue')
+      path: 'control-flow',
+      component: () =>
+        import('../pages/selections/control-flow/ControlFlow.vue')
     },
     {
       path: 'local-variables',
