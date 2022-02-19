@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 <template>
-  <span>xx</span>
+  <h3><code>zoom</code></h3>
 </template>
 <style scoped></style>

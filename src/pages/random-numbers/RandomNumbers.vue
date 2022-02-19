@@ -19,6 +19,7 @@ import RandomPoissonVue from '@/models/random-numbers/RandomPoisson.vue'
 import RandomLcgVue from '@/models/random-numbers/RandomLcg.vue'
 </script>
 <template>
+  <h1>random numbers</h1>
   <RandomUniformVue></RandomUniformVue>
   <RandomIntVue></RandomIntVue>
   <RandomNormalVue></RandomNormalVue>

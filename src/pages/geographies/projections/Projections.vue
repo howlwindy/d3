@@ -29,6 +29,7 @@ import GeoNaturalEarth1Vue from '@/models/geographies/projections/GeoNaturalEart
 import GeoNaturalEarth1RawVue from '@/models/geographies/projections/GeoNaturalEarth1Raw.vue'
 </script>
 <template>
+  <h2>projections</h2>
   <GeoAzimuthalEqualAreaVue></GeoAzimuthalEqualAreaVue>
   <GeoAzimuthalEqualAreaRawVue></GeoAzimuthalEqualAreaRawVue>
   <GeoAzimuthalEquidistantVue></GeoAzimuthalEquidistantVue>

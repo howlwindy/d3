@@ -5,6 +5,7 @@ import ScaleBandVue from '@/models/scales/ordinal/ScaleBand.vue'
 import ScalePointVue from '@/models/scales/ordinal/ScalePoint.vue'
 </script>
 <template>
+  <h2>ordinal</h2>
   <ScaleOrdinalVue></ScaleOrdinalVue>
   <ScaleImplicitVue></ScaleImplicitVue>
   <ScaleBandVue></ScaleBandVue>

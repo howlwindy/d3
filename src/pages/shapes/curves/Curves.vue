@@ -19,6 +19,7 @@ import CurveStepVue from '@/models/shapes/curves/CurveStep.vue'
 import CurveStepBeforeVue from '@/models/shapes/curves/CurveStepBefore.vue'
 </script>
 <template>
+  <h2>curves</h2>
   <CurveBasisVue></CurveBasisVue>
   <CurveBasisClosedVue></CurveBasisClosedVue>
   <CurveBasisOpenVue></CurveBasisOpenVue>

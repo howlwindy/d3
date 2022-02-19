@@ -1,33 +1,34 @@
 <script setup lang="ts">
-import InterpolateVue from '@/interpolators/Interpolate.vue'
-import InterpolateNumberVue from '@/interpolators/InterpolateNumber.vue'
-import InterpolateRoundVue from '@/interpolators/InterpolateRound.vue'
-import InterpolateStringVue from '@/interpolators/InterpolateString.vue'
-import InterpolateDateVue from '@/interpolators/InterpolateDate.vue'
-import InterpolateArrayVue from '@/interpolators/InterpolateArray.vue'
-import InterpolateNumberArrayVue from '@/interpolators/InterpolateNumberArray.vue'
-import InterpolateObjectVue from '@/interpolators/InterpolateObject.vue'
-import InterpolateTransformCssVue from '@/interpolators/InterpolateTransformCss.vue'
-import InterpolateTransformSvgVue from '@/interpolators/InterpolateTransformSvg.vue'
-import InterpolateZoomVue from '@/interpolators/InterpolateZoom.vue'
-import InterpolateDiscreteVue from '@/interpolators/InterpolateDiscrete.vue'
-import QuantileVue from '@/models/arrays/statistics/Quantile.vue'
-import InterpolateRgbVue from '@/interpolators/InterpolateRgb.vue'
-import InterpolateRgbBasisVue from '@/interpolators/InterpolateRgbBasis.vue'
-import InterpolateRgbBasisClosedVue from '@/interpolators/InterpolateRgbBasisClosed.vue'
-import InterpolateHslVue from '@/interpolators/InterpolateHsl.vue'
-import InterpolateHslLongVue from '@/interpolators/InterpolateHslLong.vue'
-import InterpolateLabVue from '@/interpolators/InterpolateLab.vue'
-import InterpolateHclVue from '@/interpolators/InterpolateHcl.vue'
-import InterpolateHclLongVue from '@/interpolators/InterpolateHclLong.vue'
-import InterpolateCubehelixVue from '@/interpolators/InterpolateCubehelix.vue'
-import InterpolateCubehelixLongVue from '@/interpolators/InterpolateCubehelixLong.vue'
-import InterpolateHueVue from '@/interpolators/InterpolateHue.vue'
-import InterpolateBasisVue from '@/interpolators/InterpolateBasis.vue'
-import InterpolateBasisClosedVue from '@/interpolators/InterpolateBasisClosed.vue'
-import PiecewiseVue from '@/interpolators/Piecewise.vue'
+import InterpolateVue from '@/models/interpolators/Interpolate.vue'
+import InterpolateNumberVue from '@/models/interpolators/InterpolateNumber.vue'
+import InterpolateRoundVue from '@/models/interpolators/InterpolateRound.vue'
+import InterpolateStringVue from '@/models/interpolators/InterpolateString.vue'
+import InterpolateDateVue from '@/models/interpolators/InterpolateDate.vue'
+import InterpolateArrayVue from '@/models/interpolators/InterpolateArray.vue'
+import InterpolateNumberArrayVue from '@/models/interpolators/InterpolateNumberArray.vue'
+import InterpolateObjectVue from '@/models/interpolators/InterpolateObject.vue'
+import InterpolateTransformCssVue from '@/models/interpolators/InterpolateTransformCss.vue'
+import InterpolateTransformSvgVue from '@/models/interpolators/InterpolateTransformSvg.vue'
+import InterpolateZoomVue from '@/models/interpolators/InterpolateZoom.vue'
+import InterpolateDiscreteVue from '@/models/interpolators/InterpolateDiscrete.vue'
+import QuantizeVue from '@/models/interpolators/Quantize.vue'
+import InterpolateRgbVue from '@/models/interpolators/InterpolateRgb.vue'
+import InterpolateRgbBasisVue from '@/models/interpolators/InterpolateRgbBasis.vue'
+import InterpolateRgbBasisClosedVue from '@/models/interpolators/InterpolateRgbBasisClosed.vue'
+import InterpolateHslVue from '@/models/interpolators/InterpolateHsl.vue'
+import InterpolateHslLongVue from '@/models/interpolators/InterpolateHslLong.vue'
+import InterpolateLabVue from '@/models/interpolators/InterpolateLab.vue'
+import InterpolateHclVue from '@/models/interpolators/InterpolateHcl.vue'
+import InterpolateHclLongVue from '@/models/interpolators/InterpolateHclLong.vue'
+import InterpolateCubehelixVue from '@/models/interpolators/InterpolateCubehelix.vue'
+import InterpolateCubehelixLongVue from '@/models/interpolators/InterpolateCubehelixLong.vue'
+import InterpolateHueVue from '@/models/interpolators/InterpolateHue.vue'
+import InterpolateBasisVue from '@/models/interpolators/InterpolateBasis.vue'
+import InterpolateBasisClosedVue from '@/models/interpolators/InterpolateBasisClosed.vue'
+import PiecewiseVue from '@/models/interpolators/Piecewise.vue'
 </script>
 <template>
+  <h1>interpolators</h1>
   <InterpolateVue></InterpolateVue>
   <InterpolateNumberVue></InterpolateNumberVue>
   <InterpolateRoundVue></InterpolateRoundVue>
@@ -40,7 +41,7 @@ import PiecewiseVue from '@/interpolators/Piecewise.vue'
   <InterpolateTransformSvgVue></InterpolateTransformSvgVue>
   <InterpolateZoomVue></InterpolateZoomVue>
   <InterpolateDiscreteVue></InterpolateDiscreteVue>
-  <QuantileVue></QuantileVue>
+  <QuantizeVue></QuantizeVue>
   <InterpolateRgbVue></InterpolateRgbVue>
   <InterpolateRgbBasisVue></InterpolateRgbBasisVue>
   <InterpolateRgbBasisClosedVue></InterpolateRgbBasisClosedVue>

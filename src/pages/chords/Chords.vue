@@ -6,6 +6,7 @@ import RibbonVue from '@/models/chords/Ribbon.vue'
 import RibbonArrowVue from '@/models/chords/RibbonArrow.vue'
 </script>
 <template>
+  <h1>chords</h1>
   <ChordVue></ChordVue>
   <ChordDirectedVue></ChordDirectedVue>
   <ChordTransposeVue></ChordTransposeVue>

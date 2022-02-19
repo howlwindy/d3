@@ -5,6 +5,7 @@ import LinkHorizontalVue from '@/models/shapes/links/LinkHorizontal.vue'
 import LinkRadialVue from '@/models/shapes/links/LinkRadial.vue'
 </script>
 <template>
+  <h2>links</h2>
   <LinkVue></LinkVue>
   <LinkVerticalVue></LinkVerticalVue>
   <LinkHorizontalVue></LinkHorizontalVue>

@@ -11,6 +11,7 @@ import SchemeSet3Vue from '@/models/color-schemes/categorical/SchemeSet3.vue'
 import SchemeTableau10Vue from '@/models/color-schemes/categorical/SchemeTableau10.vue'
 </script>
 <template>
+  <h2>categorical</h2>
   <SchemeCategory10Vue></SchemeCategory10Vue>
   <SchemeAccentVue></SchemeAccentVue>
   <SchemeDark2Vue></SchemeDark2Vue>

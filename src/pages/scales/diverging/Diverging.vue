@@ -6,6 +6,7 @@ import ScaleDivergingSqrtVue from '@/models/scales/diverging/ScaleDivergingSqrt.
 import ScaleDivergingSymlogVue from '@/models/scales/diverging/ScaleDivergingSymlog.vue'
 </script>
 <template>
+  <h2>diverging</h2>
   <ScaleDivergingVue></ScaleDivergingVue>
   <ScaleDivergingLogVue></ScaleDivergingLogVue>
   <ScaleDivergingPowVue></ScaleDivergingPowVue>

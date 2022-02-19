@@ -5,6 +5,7 @@ import BrushYVue from '@/models/brushes/BrushY.vue'
 import BrushSelectionVue from '@/models/brushes/BrushSelection.vue'
 </script>
 <template>
+  <h1>brushes</h1>
   <BrushVue></BrushVue>
   <BrushXVue></BrushXVue>
   <BrushYVue></BrushYVue>

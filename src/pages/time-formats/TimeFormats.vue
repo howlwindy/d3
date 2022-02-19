@@ -9,6 +9,7 @@ import TimeFormatLocaleVue from '@/models/time-formats/TimeFormatLocale.vue'
 import TimeFormatDefaultLocaleVue from '@/models/time-formats/TimeFormatDefaultLocale.vue'
 </script>
 <template>
+  <h1>time formats</h1>
   <TimeFormatVue></TimeFormatVue>
   <TimeParseVue></TimeParseVue>
   <UtcFormatVue></UtcFormatVue>

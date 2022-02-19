@@ -13,6 +13,7 @@ import SchemePurplesVue from '@/models/color-schemes/sequential-single-hue/Schem
 import SchemeRedsVue from '@/models/color-schemes/sequential-single-hue/SchemeReds.vue'
 </script>
 <template>
+  <h2>sequential single hue</h2>
   <InterpolateBluesVue></InterpolateBluesVue>
   <InterpolateGreensVue></InterpolateGreensVue>
   <InterpolateGreysVue></InterpolateGreysVue>

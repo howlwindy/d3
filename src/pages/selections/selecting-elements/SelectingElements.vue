@@ -9,6 +9,7 @@ import WindowVue from '@/models/selections/selecting-elements/Window.vue'
 import StyleVue from '@/models/selections/selecting-elements/Style.vue'
 </script>
 <template>
+  <h2>selecting elements</h2>
   <SelectionVue></SelectionVue>
   <SelectVue></SelectVue>
   <SelectAllVue></SelectAllVue>

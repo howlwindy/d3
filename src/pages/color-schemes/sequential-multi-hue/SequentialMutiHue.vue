@@ -34,6 +34,7 @@ import SchemeYlOrBrVue from '@/models/color-schemes/sequential-multi-hue/SchemeY
 import SchemeYlOrRdVue from '@/models/color-schemes/sequential-multi-hue/SchemeYlOrRd.vue'
 </script>
 <template>
+  <h2>sequential multi hue</h2>
   <InterpolateBuGnVue></InterpolateBuGnVue>
   <InterpolateBuPuVue></InterpolateBuPuVue>
   <InterpolateCividisVue></InterpolateCividisVue>

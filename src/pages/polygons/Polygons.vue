@@ -6,6 +6,7 @@ import PolygonContainsVue from '@/models/polygons/PolygonContains.vue'
 import PolygonLengthVue from '@/models/polygons/PolygonLength.vue'
 </script>
 <template>
+  <h1>polygons</h1>
   <PolygonAreaVue></PolygonAreaVue>
   <PolygonCentroidVue></PolygonCentroidVue>
   <PolygonHullVue></PolygonHullVue>

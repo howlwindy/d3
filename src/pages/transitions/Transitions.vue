@@ -4,6 +4,7 @@ import TransitionVue from '@/models/transitions/Transition.vue'
 import ActiveVue from '@/models/transitions/Active.vue'
 </script>
 <template>
+  <h1>transition</h1>
   <InterruptVue></InterruptVue>
   <TransitionVue></TransitionVue>
   <ActiveVue></ActiveVue>

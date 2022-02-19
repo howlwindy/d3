@@ -9,6 +9,7 @@ import LchVue from '@/models/colors/Lch.vue'
 import CubehelixVue from '@/models/colors/Cubehelix.vue'
 </script>
 <template>
+  <h1>colors</h1>
   <ColorVue></ColorVue>
   <RgbVue></RgbVue>
   <HslVue></HslVue>

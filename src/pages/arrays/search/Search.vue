@@ -12,6 +12,7 @@ import AscendingVue from '@/models/arrays/search/Ascending.vue'
 import DescendingVue from '@/models/arrays/search/Descending.vue'
 </script>
 <template>
+  <h2>search</h2>
   <LeastVue></LeastVue>
   <LeastIndexVue></LeastIndexVue>
   <GreatestVue></GreatestVue>

@@ -6,6 +6,7 @@ import TimeoutVue from '@/models/timers/Timeout.vue'
 import IntervalVue from '@/models/timers/Interval.vue'
 </script>
 <template>
+  <h1>timers</h1>
   <NowVue></NowVue>
   <TimerVue></TimerVue>
   <TimerFlushVue></TimerFlushVue>

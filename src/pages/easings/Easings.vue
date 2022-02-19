@@ -38,6 +38,7 @@ import EaseBounceOutVue from '@/models/easings/EaseBounceOut.vue'
 import EaseBounceInOutVue from '@/models/easings/EaseBounceInOut.vue'
 </script>
 <template>
+  <h1>easings</h1>
   <EaseLinearVue></EaseLinearVue>
   <EasePolyInVue></EasePolyInVue>
   <EasePolyOutVue></EasePolyOutVue>

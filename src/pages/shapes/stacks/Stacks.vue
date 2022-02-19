@@ -13,6 +13,7 @@ import StackOffsetWiggleVue from '@/models/shapes/stacks/StackOffsetWiggle.vue'
 </script>
 
 <template>
+  <h2>stacks</h2>
   <StackVue></StackVue>
   <StackOrderAppearanceVue></StackOrderAppearanceVue>
   <StackOrderAscendingVue></StackOrderAscendingVue>

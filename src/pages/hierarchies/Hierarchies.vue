@@ -15,6 +15,7 @@ import PackSiblingsVue from '@/models/hierarchies/PackSiblings.vue'
 import PackEncloseVue from '@/models/hierarchies/PackEnclose.vue'
 </script>
 <template>
+  <h1>hierarchies</h1>
   <HierarchyVue></HierarchyVue>
   <StratifyVue></StratifyVue>
   <ClusterVue></ClusterVue>

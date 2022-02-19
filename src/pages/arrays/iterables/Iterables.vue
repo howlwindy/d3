@@ -8,6 +8,7 @@ import ReverseVue from '@/models/arrays/iterables/Reverse.vue'
 import SortVue from '@/models/arrays/iterables/Sort.vue'
 </script>
 <template>
+  <h2>iterables</h2>
   <EveryVue></EveryVue>
   <SomeVue></SomeVue>
   <FilterVue></FilterVue>

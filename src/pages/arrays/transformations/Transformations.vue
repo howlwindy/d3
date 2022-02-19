@@ -24,6 +24,7 @@ import TransposeVue from '@/models/arrays/transformations/Transpose.vue'
 import ZipVue from '@/models/arrays/transformations/Zip.vue'
 </script>
 <template>
+  <h2>transformations</h2>
   <FlatGroupVue></FlatGroupVue>
   <FlatRollupVue></FlatRollupVue>
   <GroupVue></GroupVue>

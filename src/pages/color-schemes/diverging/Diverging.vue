@@ -19,6 +19,7 @@ import SchemeRdYlGnVue from '@/models/color-schemes/diverging/SchemeRdYlGn.vue'
 import SchemeSpectralVue from '@/models/color-schemes/diverging/SchemeSpectral.vue'
 </script>
 <template>
+  <h2>diverging</h2>
   <InterpolateBrBGVue></InterpolateBrBGVue>
   <InterpolatePiYGVue></InterpolatePiYGVue>
   <InterpolatePRGnVue></InterpolatePRGnVue>

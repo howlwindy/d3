@@ -1,3 +1,5 @@
 <script setup lang="ts"></script>
-<template><span>xx</span></template>
+<template>
+  <h3><code>zoomIdentity</code></h3>
+</template>
 <style scoped></style>

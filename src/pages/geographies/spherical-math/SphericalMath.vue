@@ -9,6 +9,7 @@ import GeoContainsVue from '@/models/geographies/spherical-math/GeoContains.vue'
 import GeoRotationVue from '@/models/geographies/spherical-math/GeoRotation.vue'
 </script>
 <template>
+  <h2>spherical math</h2>
   <GeoAreaVue></GeoAreaVue>
   <GeoBoundsVue></GeoBoundsVue>
   <GeoCentroidVue></GeoCentroidVue>

@@ -19,6 +19,7 @@ import FsumVue from '@/models/arrays/statistics/Fsum.vue'
 import AdderVue from '@/models/arrays/statistics/Adder.vue'
 </script>
 <template>
+  <h2>statistics</h2>
   <MinVue></MinVue>
   <MinIndexVue></MinIndexVue>
   <MaxVue></MaxVue>

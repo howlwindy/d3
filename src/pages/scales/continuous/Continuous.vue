@@ -11,6 +11,7 @@ import ScaleTimeVue from '@/models/scales/continuous/ScaleTime.vue'
 import ScaleUtcVue from '@/models/scales/continuous/ScaleUtc.vue'
 </script>
 <template>
+  <h2>continuous</h2>
   <TickFormatVue></TickFormatVue>
   <ScaleLinearVue></ScaleLinearVue>
   <ScalePowVue></ScalePowVue>

@@ -7,6 +7,7 @@ import ScaleSequentialSymlogVue from '@/models/scales/sequential/ScaleSequential
 import ScaleSequentialQuantileVue from '@/models/scales/sequential/ScaleSequentialQuantile.vue'
 </script>
 <template>
+  <h2>sequential</h2>
   <ScaleSequentialVue></ScaleSequentialVue>
   <ScaleSequentialLogVue></ScaleSequentialLogVue>
   <ScaleSequentialPowVue></ScaleSequentialPowVue>

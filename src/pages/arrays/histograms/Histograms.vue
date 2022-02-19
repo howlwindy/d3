@@ -5,6 +5,7 @@ import ThresholdScottVue from '@/models/arrays/histograms/ThresholdScott.vue'
 import ThresholdSturgesVue from '@/models/arrays/histograms/ThresholdSturges.vue'
 </script>
 <template>
+  <h2>histograms</h2>
   <BinVue></BinVue>
   <ThresholdFreedmanDiaconisVue></ThresholdFreedmanDiaconisVue>
   <ThresholdScottVue></ThresholdScottVue>

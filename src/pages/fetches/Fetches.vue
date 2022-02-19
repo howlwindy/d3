@@ -12,6 +12,7 @@ import TsvVue from '@/models/fetches/Tsv.vue'
 import XmlVue from '@/models/fetches/Xml.vue'
 </script>
 <template>
+  <h1>fetches</h1>
   <BlobVue></BlobVue>
   <BufferVue></BufferVue>
   <CsvVue></CsvVue>

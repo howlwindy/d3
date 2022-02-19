@@ -4,6 +4,7 @@ import GeoClipCircleVue from '@/models/geographies/clipping/GeoClipCircle.vue'
 import GeoClipRectangleVue from '@/models/geographies/clipping/GeoClipRectangle.vue'
 </script>
 <template>
+  <h2>clipping</h2>
   <GeoClipAntimeridianVue></GeoClipAntimeridianVue>
   <GeoClipCircleVue></GeoClipCircleVue>
   <GeoClipRectangleVue></GeoClipRectangleVue>

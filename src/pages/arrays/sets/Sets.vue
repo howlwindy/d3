@@ -7,6 +7,7 @@ import SubsetVue from '@/models/arrays/sets/Subset.vue'
 import UnionVue from '@/models/arrays/sets/Union.vue'
 </script>
 <template>
+  <h2>sets</h2>
   <DifferenceVue></DifferenceVue>
   <DisjointVue></DisjointVue>
   <IntersectionVue></IntersectionVue>

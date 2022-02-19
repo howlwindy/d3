@@ -5,6 +5,7 @@ import AxisBottomVue from '@/models/axes/AxisBottom.vue'
 import AxisLeftVue from '@/models/axes/AxisLeft.vue'
 </script>
 <template>
+  <h1>axes</h1>
   <AxisTopVue></AxisTopVue>
   <AxisRightVue></AxisRightVue>
   <AxisBottomVue></AxisBottomVue>

@@ -9,6 +9,7 @@ import ForceYVue from '@/models/forces/ForceY.vue'
 import ForceRadialVue from '@/models/forces/ForceRadial.vue'
 </script>
 <template>
+  <h1>forces</h1>
   <ForceSimulationVue></ForceSimulationVue>
   <ForceCenterVue></ForceCenterVue>
   <ForceCollideVue></ForceCollideVue>

@@ -18,6 +18,7 @@ import SymbolXVue from '@/models/shapes/symbols/SymbolX.vue'
 import PointRadialVue from '@/models/shapes/symbols/PointRadial.vue'
 </script>
 <template>
+  <h2>symbols</h2>
   <SymbolVue></SymbolVue>
   <SymbolsFillVue></SymbolsFillVue>
   <SymbolsStrokeVue></SymbolsStrokeVue>

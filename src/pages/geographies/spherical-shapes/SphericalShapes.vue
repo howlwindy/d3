@@ -4,6 +4,7 @@ import GeoGraticuleVue from '@/models/geographies/spherical-shapes/GeoGraticule.
 import GeoGraticule10Vue from '@/models/geographies/spherical-shapes/GeoGraticule10.vue'
 </script>
 <template>
+  <h2>spherical shapes</h2>
   <GeoCircleVue></GeoCircleVue>
   <GeoGraticuleVue></GeoGraticuleVue>
   <GeoGraticule10Vue></GeoGraticule10Vue>

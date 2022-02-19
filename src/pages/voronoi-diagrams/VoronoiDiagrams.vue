@@ -1,3 +1,5 @@
 <script setup lang="ts"></script>
-<template><span>xx</span></template>
+<template>
+  <h1>voronoi diagrams</h1>
+</template>
 <style scoped></style>
