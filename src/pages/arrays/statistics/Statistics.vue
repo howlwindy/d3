@@ -17,13 +17,18 @@ import DeviationVue from '@/models/arrays/statistics/Deviation.vue'
 import FcumsumVue from '@/models/arrays/statistics/Fcumsum.vue'
 import FsumVue from '@/models/arrays/statistics/Fsum.vue'
 import AdderVue from '@/models/arrays/statistics/Adder.vue'
+import GroupVue from '@/components/Group.vue'
 </script>
 <template>
   <h2>statistics</h2>
-  <MinVue></MinVue>
-  <MinIndexVue></MinIndexVue>
-  <MaxVue></MaxVue>
-  <MaxIndexVue></MaxIndexVue>
+  <GroupVue>
+    <MinVue></MinVue>
+    <MinIndexVue></MinIndexVue>
+  </GroupVue>
+  <GroupVue>
+    <MaxVue></MaxVue>
+    <MaxIndexVue></MaxIndexVue>
+  </GroupVue>
   <ExtentVue></ExtentVue>
   <SumVue></SumVue>
   <MeanVue></MeanVue>

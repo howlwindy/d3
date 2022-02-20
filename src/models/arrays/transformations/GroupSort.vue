@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import GroupItemVue from '@/components/GroupItem.vue'
+</script>
 <template>
-  <h3><code>groupSort</code></h3>
+  <GroupItemVue>
+    <h3><code>groupSort</code></h3>
+  </GroupItemVue>
 </template>
 <style scoped></style>
