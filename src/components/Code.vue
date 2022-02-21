@@ -1,16 +1,21 @@
 <script setup lang="ts">
-import { toRef } from 'vue'
 interface IProps {
-  type: string
-  data: string[]
+  result: any
 }
-const props = withDefaults(defineProps<IProps>(), { type: '', data: () => [] })
-const data = toRef(props, 'data')
-data.value.unshift(`// ${props.type}`)
+const props = withDefaults(defineProps<IProps>(), {
+  result: ''
+})
 </script>
 <template>
-  <pre v-highlight>
-    <code class="typescript">{{props.data.join('\n')}}</code>
-  </pre>
+  <div style="white-space: nowrap">
+    <div style="background-color: #eee">
+      <slot></slot>
+    </div>
+    <code>
+      <i style="font-weight: bold">{{ ' => ' }}</i>
+      <i style="color: #ff522a">
+        {{ props.result }}
+      </i>
+    </code>
+  </div>
 </template>
-<style scoped></style>
