@@ -35,11 +35,11 @@ import GroupVue from '@/components/Group.vue'
   <GroupVue>
     <MedianVue></MedianVue>
     <QuantileVue></QuantileVue>
+    <QuantileSortedVue></QuantileSortedVue>
   </GroupVue>
   <ModeVue></ModeVue>
   <CumsumVue></CumsumVue>
   <RankVue></RankVue>
-  <QuantileSortedVue></QuantileSortedVue>
   <VarianceVue></VarianceVue>
   <DeviationVue></DeviationVue>
   <FcumsumVue></FcumsumVue>
