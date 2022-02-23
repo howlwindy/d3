@@ -44,8 +44,10 @@ import GroupVue from '@/components/Group.vue'
   </GroupVue>
   <ModeVue></ModeVue>
   <RankVue></RankVue>
-  <VarianceVue></VarianceVue>
-  <DeviationVue></DeviationVue>
+  <GroupVue>
+    <VarianceVue></VarianceVue>
+    <DeviationVue></DeviationVue>
+  </GroupVue>
   <AdderVue></AdderVue>
 </template>
 <style scoped></style>
