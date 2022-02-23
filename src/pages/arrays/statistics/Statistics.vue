@@ -30,7 +30,12 @@ import GroupVue from '@/components/Group.vue'
     <MaxIndexVue></MaxIndexVue>
   </GroupVue>
   <ExtentVue></ExtentVue>
-  <SumVue></SumVue>
+  <GroupVue>
+    <SumVue></SumVue>
+    <CumsumVue></CumsumVue>
+    <FcumsumVue></FcumsumVue>
+    <FsumVue></FsumVue>
+  </GroupVue>
   <MeanVue></MeanVue>
   <GroupVue>
     <MedianVue></MedianVue>
@@ -38,12 +43,9 @@ import GroupVue from '@/components/Group.vue'
     <QuantileSortedVue></QuantileSortedVue>
   </GroupVue>
   <ModeVue></ModeVue>
-  <CumsumVue></CumsumVue>
   <RankVue></RankVue>
   <VarianceVue></VarianceVue>
   <DeviationVue></DeviationVue>
-  <FcumsumVue></FcumsumVue>
-  <FsumVue></FsumVue>
   <AdderVue></AdderVue>
 </template>
 <style scoped></style>
