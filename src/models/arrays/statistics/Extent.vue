@@ -40,7 +40,7 @@ const input2 = (v: string) =>
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>extent</code></h3>
+    <h3><code>extent - 最小值和最大值（区间）</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
       <input v-model="data0" type="text" @input="input0(data0)" />

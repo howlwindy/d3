@@ -25,7 +25,7 @@ const input1 = (v: string) =>
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>rank</code></h3>
+    <h3><code>rank - 排序下标（由小到大）</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
       <input v-model="data0" type="text" @input="input0(data0)" />

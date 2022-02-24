@@ -25,7 +25,7 @@ const input1 = (v: string) =>
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>mode</code></h3>
+    <h3><code>mode - 重复最多的数（相同次数优先下标小）</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
       <input v-model="data0" type="text" @input="input0(data0)" />

@@ -25,7 +25,7 @@ const input1 = (v: string) =>
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>fcumsum</code></h3>
+    <h3><code>fcumsum - 累积（全精度）</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
       <input v-model="data0" type="text" @input="input0(data0)" />

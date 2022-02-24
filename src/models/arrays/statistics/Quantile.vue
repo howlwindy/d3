@@ -30,7 +30,7 @@ const input1 = (v: string, p: string) =>
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>quantile</code></h3>
+    <h3><code>quantile - 分位数</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
       <input v-model="data0" type="text" @input="input0(data0, data01)" />

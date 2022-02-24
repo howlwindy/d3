@@ -36,7 +36,7 @@ const input2 = (v: string) =>
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>max</code></h3>
+    <h3><code>max - 最大值</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
       <input v-model="data0" type="text" @input="input0(data0)" />

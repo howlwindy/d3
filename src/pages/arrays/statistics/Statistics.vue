@@ -20,7 +20,7 @@ import AdderVue from '@/models/arrays/statistics/Adder.vue'
 import GroupVue from '@/components/Group.vue'
 </script>
 <template>
-  <h2>statistics</h2>
+  <h2>statistics - 统计</h2>
   <GroupVue>
     <MinVue></MinVue>
     <MinIndexVue></MinIndexVue>
@@ -32,11 +32,15 @@ import GroupVue from '@/components/Group.vue'
   <ExtentVue></ExtentVue>
   <GroupVue>
     <SumVue></SumVue>
+    <FsumVue></FsumVue>
     <CumsumVue></CumsumVue>
     <FcumsumVue></FcumsumVue>
-    <FsumVue></FsumVue>
   </GroupVue>
-  <MeanVue></MeanVue>
+  <GroupVue>
+    <MeanVue></MeanVue>
+    <VarianceVue></VarianceVue>
+    <DeviationVue></DeviationVue>
+  </GroupVue>
   <GroupVue>
     <MedianVue></MedianVue>
     <QuantileVue></QuantileVue>
@@ -44,10 +48,6 @@ import GroupVue from '@/components/Group.vue'
   </GroupVue>
   <ModeVue></ModeVue>
   <RankVue></RankVue>
-  <GroupVue>
-    <VarianceVue></VarianceVue>
-    <DeviationVue></DeviationVue>
-  </GroupVue>
   <AdderVue></AdderVue>
 </template>
 <style scoped></style>
