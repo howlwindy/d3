@@ -12,8 +12,7 @@ const src = ref<string[]>([
 
 const data0 = ref<string>('a 2 10 -1 -2')
 const result0 = ref<string[]>(data0.value.split(' ').sort(d3.ascending))
-const input0 = (v0: string) =>
-  (result0.value = v0.split(' ').sort(d3.ascending))
+const input0 = (v: string) => (result0.value = v.split(' ').sort(d3.ascending))
 </script>
 <template>
   <GroupItemVue>
