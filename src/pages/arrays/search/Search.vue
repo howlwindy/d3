@@ -10,11 +10,18 @@ import BisectorVue from '@/models/arrays/search/Bisector.vue'
 import QuickselectVue from '@/models/arrays/search/Quickselect.vue'
 import AscendingVue from '@/models/arrays/search/Ascending.vue'
 import DescendingVue from '@/models/arrays/search/Descending.vue'
+import GroupVue from '@/components/Group.vue'
 </script>
 <template>
-  <h2>search</h2>
-  <LeastVue></LeastVue>
-  <LeastIndexVue></LeastIndexVue>
+  <h2>search - 查</h2>
+  <GroupVue>
+    <AscendingVue></AscendingVue>
+    <DescendingVue></DescendingVue>
+  </GroupVue>
+  <GroupVue>
+    <LeastVue></LeastVue>
+    <LeastIndexVue></LeastIndexVue>
+  </GroupVue>
   <GreatestVue></GreatestVue>
   <BisectCenterVue></BisectCenterVue>
   <BisectLeftVue></BisectLeftVue>
@@ -22,7 +29,5 @@ import DescendingVue from '@/models/arrays/search/Descending.vue'
   <BisectRightVue></BisectRightVue>
   <BisectorVue></BisectorVue>
   <QuickselectVue></QuickselectVue>
-  <AscendingVue></AscendingVue>
-  <DescendingVue></DescendingVue>
 </template>
 <style scoped></style>
