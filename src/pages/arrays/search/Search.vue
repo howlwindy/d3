@@ -2,6 +2,7 @@
 import LeastVue from '@/models/arrays/search/Least.vue'
 import LeastIndexVue from '@/models/arrays/search/LeastIndex.vue'
 import GreatestVue from '@/models/arrays/search/Greatest.vue'
+import GreatestIndexVue from '@/models/arrays/search/GreatestIndex.vue'
 import BisectCenterVue from '@/models/arrays/search/BisectCenter.vue'
 import BisectLeftVue from '@/models/arrays/search/BisectLeft.vue'
 import BisectVue from '@/models/arrays/search/Bisect.vue'
@@ -22,7 +23,10 @@ import GroupVue from '@/components/Group.vue'
     <LeastVue></LeastVue>
     <LeastIndexVue></LeastIndexVue>
   </GroupVue>
-  <GreatestVue></GreatestVue>
+  <GroupVue>
+    <GreatestVue></GreatestVue>
+    <GreatestIndexVue></GreatestIndexVue>
+  </GroupVue>
   <BisectCenterVue></BisectCenterVue>
   <BisectLeftVue></BisectLeftVue>
   <BisectVue></BisectVue>

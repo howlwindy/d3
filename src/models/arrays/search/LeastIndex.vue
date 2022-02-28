@@ -31,7 +31,7 @@ const result2 = ref<number | undefined>(
   d3.leastIndex(data2.value.split(' '), (a, b) => a.length - b.length)
 )
 const input2 = (v: string) =>
-  (result2.value = d3.leastIndex(v.split(' '), (a) => a.length))
+  (result2.value = d3.leastIndex(v.split(' '), (a, b) => a.length - b.length))
 </script>
 <template>
   <GroupItemVue>
