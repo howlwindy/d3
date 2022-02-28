@@ -27,11 +27,13 @@ import GroupVue from '@/components/Group.vue'
     <GreatestVue></GreatestVue>
     <GreatestIndexVue></GreatestIndexVue>
   </GroupVue>
-  <BisectCenterVue></BisectCenterVue>
-  <BisectLeftVue></BisectLeftVue>
-  <BisectVue></BisectVue>
-  <BisectRightVue></BisectRightVue>
-  <BisectorVue></BisectorVue>
+  <GroupVue>
+    <BisectVue></BisectVue>
+    <BisectLeftVue></BisectLeftVue>
+    <BisectCenterVue></BisectCenterVue>
+    <BisectRightVue></BisectRightVue>
+    <BisectorVue></BisectorVue>
+  </GroupVue>
   <QuickselectVue></QuickselectVue>
 </template>
 <style scoped></style>
