@@ -3,7 +3,7 @@ import GroupItemVue from '@/components/GroupItem.vue'
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>bisector</code></h3>
+    <h3><code>bisector - ?</code></h3>
   </GroupItemVue>
 </template>
 <style scoped></style>
