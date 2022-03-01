@@ -18,6 +18,7 @@ import GroupVue from '@/components/Group.vue'
   <GroupVue>
     <AscendingVue></AscendingVue>
     <DescendingVue></DescendingVue>
+    <QuickselectVue></QuickselectVue>
   </GroupVue>
   <GroupVue>
     <LeastVue></LeastVue>
@@ -34,6 +35,5 @@ import GroupVue from '@/components/Group.vue'
     <BisectRightVue></BisectRightVue>
     <BisectorVue></BisectorVue>
   </GroupVue>
-  <QuickselectVue></QuickselectVue>
 </template>
 <style scoped></style>
