@@ -38,7 +38,7 @@ const arrays: RouteRecordRaw = {
       component: () => import('../pages/arrays/iterables/Iterables.vue'),
       meta: {
         count: 7,
-        notUnderstand: ''
+        notUnderstand: 0
       }
     },
     {
@@ -46,7 +46,7 @@ const arrays: RouteRecordRaw = {
       component: () => import('../pages/arrays/sets/Sets.vue'),
       meta: {
         count: 6,
-        notUnderstand: ''
+        notUnderstand: 0
       }
     },
     {
