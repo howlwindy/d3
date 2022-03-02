@@ -62,7 +62,7 @@ const arrays: RouteRecordRaw = {
       component: () => import('../pages/arrays/interning/Interning.vue'),
       meta: {
         count: 2,
-        notUnderstand: ''
+        notUnderstand: 0
       }
     }
   ]
