@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import FlatGroupVue from '@/models/arrays/transformations/FlatGroup.vue'
 import FlatRollupVue from '@/models/arrays/transformations/FlatRollup.vue'
-import GroupVue from '@/models/arrays/transformations/Group.vue'
 import GroupsVue from '@/models/arrays/transformations/Groups.vue'
 import GroupSortVue from '@/models/arrays/transformations/GroupSort.vue'
 import IndexVue from '@/models/arrays/transformations/Index.vue'
@@ -22,28 +21,41 @@ import NiceVue from '@/models/arrays/transformations/Nice.vue'
 import RangeVue from '@/models/arrays/transformations/Range.vue'
 import TransposeVue from '@/models/arrays/transformations/Transpose.vue'
 import ZipVue from '@/models/arrays/transformations/Zip.vue'
+import GroupVue from '@/components/Group.vue'
 </script>
 <template>
   <h2>transformations</h2>
-  <FlatGroupVue></FlatGroupVue>
-  <FlatRollupVue></FlatRollupVue>
-  <GroupVue></GroupVue>
-  <GroupsVue></GroupsVue>
-  <GroupSortVue></GroupSortVue>
-  <IndexVue></IndexVue>
-  <IndexesVue></IndexesVue>
-  <RollupVue></RollupVue>
-  <RollupsVue></RollupsVue>
+  <GroupVue>
+    <FlatGroupVue></FlatGroupVue>
+    <FlatRollupVue></FlatRollupVue>
+  </GroupVue>
+  <GroupVue>
+    <GroupVue></GroupVue>
+    <GroupsVue></GroupsVue>
+    <GroupSortVue></GroupSortVue>
+  </GroupVue>
+  <GroupVue>
+    <IndexVue></IndexVue>
+    <IndexesVue></IndexesVue>
+  </GroupVue>
+  <GroupVue>
+    <RollupVue></RollupVue>
+    <RollupsVue></RollupsVue>
+  </GroupVue>
   <CountVue></CountVue>
   <CrossVue></CrossVue>
   <MergeVue></MergeVue>
   <PairsVue></PairsVue>
   <PermuteVue></PermuteVue>
-  <ShuffleVue></ShuffleVue>
-  <ShufflerVue></ShufflerVue>
-  <TicksVue></TicksVue>
-  <TickIncrementVue></TickIncrementVue>
-  <TickStepVue></TickStepVue>
+  <GroupVue>
+    <ShuffleVue></ShuffleVue>
+    <ShufflerVue></ShufflerVue>
+  </GroupVue>
+  <GroupVue>
+    <TicksVue></TicksVue>
+    <TickIncrementVue></TickIncrementVue>
+    <TickStepVue></TickStepVue>
+  </GroupVue>
   <NiceVue></NiceVue>
   <RangeVue></RangeVue>
   <TransposeVue></TransposeVue>
