@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import FlatGroupVue from '@/models/arrays/transformations/FlatGroup.vue'
 import FlatRollupVue from '@/models/arrays/transformations/FlatRollup.vue'
+import D3GroupVue from '@/models/arrays/transformations/Group.vue'
 import GroupsVue from '@/models/arrays/transformations/Groups.vue'
 import GroupSortVue from '@/models/arrays/transformations/GroupSort.vue'
 import IndexVue from '@/models/arrays/transformations/Index.vue'
@@ -30,7 +31,7 @@ import GroupVue from '@/components/Group.vue'
     <FlatRollupVue></FlatRollupVue>
   </GroupVue>
   <GroupVue>
-    <GroupVue></GroupVue>
+    <D3GroupVue></D3GroupVue>
     <GroupsVue></GroupsVue>
     <GroupSortVue></GroupSortVue>
   </GroupVue>
