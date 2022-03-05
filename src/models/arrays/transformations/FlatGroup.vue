@@ -9,7 +9,7 @@ import * as d3 from 'd3'
 const src = ref<string[]>([
   'flatGroup<TObject, TKey>(iterable: Iterable<TObject>, key: (value: TObject) => TKey): Array<[TKey, TObject[]]>',
   'flatGroup<TObject, TKey1, TKey2>(iterable: Iterable<TObject>, key1: (value: TObject) => TKey1, key2: (value: TObject) => TKey2): Array<[TKey1, TKey2, TObject[]]>',
-  '<TObject, TKey1, TKey2, TKey3>(iterable: Iterable<TObject>, key1: (value: TObject) => TKey1, key2: (value: TObject) => TKey2, key3: (value: TObject) => TKey3): Array<[TKey1, TKey2, TKey3, TObject[]]>'
+  'flatGroup<TObject, TKey1, TKey2, TKey3>(iterable: Iterable<TObject>, key1: (value: TObject) => TKey1, key2: (value: TObject) => TKey2, key3: (value: TObject) => TKey3): Array<[TKey1, TKey2, TKey3, TObject[]]>'
 ])
 
 const data0 = ref<string>('a 2 10 -1 -2')
@@ -50,7 +50,7 @@ const input2 = (v: string) =>
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>flatGroup - 除NaN/null/undefined的元素个数</code></h3>
+    <h3><code>flatGroup - 扁平化</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
       <input v-model="data0" type="text" @input="input0(data0)" />
