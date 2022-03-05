@@ -54,7 +54,7 @@ const arrays: RouteRecordRaw = {
       component: () => import('../pages/arrays/histograms/Histograms.vue'),
       meta: {
         count: 4,
-        notUnderstand: ''
+        notUnderstand: 4
       }
     },
     {
