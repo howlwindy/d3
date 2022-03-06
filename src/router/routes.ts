@@ -30,7 +30,7 @@ const arrays: RouteRecordRaw = {
         import('../pages/arrays/transformations/Transformations.vue'),
       meta: {
         count: 23,
-        notUnderstand: ''
+        notUnderstand: 2
       }
     },
     {
