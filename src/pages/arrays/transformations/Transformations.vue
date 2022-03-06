@@ -57,8 +57,8 @@ import GroupVue from '@/components/Group.vue'
     <TickIncrementVue></TickIncrementVue>
     <TickStepVue></TickStepVue>
     <NiceVue></NiceVue>
+    <RangeVue></RangeVue>
   </GroupVue>
-  <RangeVue></RangeVue>
   <TransposeVue></TransposeVue>
   <ZipVue></ZipVue>
 </template>

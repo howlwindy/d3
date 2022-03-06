@@ -26,9 +26,9 @@ const input2 = (v: number) =>
     <h3><code>ticks - [start, (以0/1/2/5/10倍均分), end]</code></h3>
     <SrcVue :data="src"></SrcVue>
     <EgVue>
-      <input v-model="data0" type="text" @input="input0(data0)" />
-      <input v-model="data1" type="text" @input="input1(data1)" />
-      <input v-model="data2" type="text" @input="input2(data2)" />
+      <input v-model="data0" type="number" @input="input0(data0)" />
+      <input v-model="data1" type="number" @input="input1(data1)" />
+      <input v-model="data2" type="number" @input="input2(data2)" />
       <CodeVue :result="result0">
         <code>d3.ticks({{ data0 }}, {{ data1 }}, {{ data2 }})</code>
       </CodeVue>
