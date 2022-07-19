@@ -4,7 +4,7 @@ import TitleAndInfo from '@/components/TitleAndInfo.vue'
 </script>
 <template>
   <GroupItemVue>
-    <TitleAndInfo :title="'style'" :info="'返回传入元素css key的value'" />
+    <TitleAndInfo :title="'selection.select'" />
   </GroupItemVue>
 </template>
 <style scoped></style>

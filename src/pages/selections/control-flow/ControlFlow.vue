@@ -1,5 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TitleAndInfo from '@/components/TitleAndInfo.vue'
+</script>
 <template>
-  <h2>control flow</h2>
+  <TitleAndInfo :title="'control flow'" :info="''" />
 </template>
-<style scoped></style>

@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import GroupItemVue from '@/components/GroupItem.vue'
+import TitleAndInfo from '@/components/TitleAndInfo.vue'
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>matcher</code></h3>
+    <TitleAndInfo :title="'matcher'" />
   </GroupItemVue>
 </template>
 <style scoped></style>

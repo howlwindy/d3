@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import NamespaceVue from '@/models/selections/namespaces/Namespace.vue'
 import NamespacesVue from '@/models/selections/namespaces/Namespaces.vue'
+import TitleAndInfo from '@/components/TitleAndInfo.vue'
 </script>
 <template>
-  <h2>namespaces</h2>
+  <TitleAndInfo :title="'namespaces'" :info="''" />
   <NamespaceVue></NamespaceVue>
   <NamespacesVue></NamespacesVue>
 </template>

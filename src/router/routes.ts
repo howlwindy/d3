@@ -623,6 +623,14 @@ const zooming: RouteRecordRaw = {
 
 export const routes = (): RouteRecordRaw[] => [
   {
+    path: '/exercise',
+    component: () => import('../pages/Exercise.vue'),
+    meta: {
+      count: '',
+      notUnderstand: ''
+    }
+  },
+  {
     path: '/',
     component: () => import('../pages/Home.vue'),
     meta: {

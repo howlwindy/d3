@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import GroupItemVue from '@/components/GroupItem.vue'
+import TitleAndInfo from '@/components/TitleAndInfo.vue'
 </script>
 <template>
   <GroupItemVue>
-    <h3><code>window</code></h3>
+    <TitleAndInfo :title="'window'" :info="'=== window'" />
   </GroupItemVue>
 </template>
 <style scoped></style>

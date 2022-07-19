@@ -1,5 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TitleAndInfo from '@/components/TitleAndInfo.vue'
+</script>
 <template>
-  <h2>joining data</h2>
+  <TitleAndInfo :title="'joining data'" :info="''" />
 </template>
 <style scoped></style>
