@@ -17,6 +17,10 @@ onMounted(() => {
   console.log('selectAll ---> ', selectAll)
   selectAll.style('background-color', '#009fab')
 
+  const matcher = d3.matcher('[data-exercise="exercise"]')
+  console.log('matcher --> ', matcher)
+  selectAll.filter(matcher).style('background-color', '#ffa843')
+
   const selector = d3.selector('a')
   console.log('selector --> ', selector)
   d3.selectAll('div').select(selector).style('font-size', '30px')
@@ -39,7 +43,9 @@ onMounted(() => {
   <h1>Exercise</h1>
   <div id="selection">selection</div>
   <div>
-    <a v-for="v of 10" :key="`${v}child`">{{ v }} - {{ v }}</a>
+    <a v-for="v of 10" :key="`${v}child`" data-exercise="exercise">
+      {{ v }} - {{ v }}
+    </a>
   </div>
   <a v-for="v of 10" :key="v">{{ v }}</a>
 </template>
