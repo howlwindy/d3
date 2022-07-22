@@ -1,0 +1,19 @@
+### [Spherical Shapes](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#spherical-shapes)
+
+- [d3.geoCircle](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#geoCircle) - create a circle generator.
+- [_circle_](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#_circle) - generate a piecewise circle as a Polygon.
+- [_circle_.center](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#circle_center) - specify the circle center in latitude and longitude.
+- [_circle_.radius](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#circle_radius) - specify the angular radius in degrees.
+- [_circle_.precision](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#circle_precision) - specify the precision of the piecewise circle.
+- [d3.geoGraticule](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#geoGraticule) - create a graticule generator.
+- [_graticule_](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#_graticule) - generate a MultiLineString of meridians and parallels.
+- [_graticule_.lines](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_lines) - generate an array of LineStrings of meridians and parallels.
+- [_graticule_.outline](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_outline) - generate a Polygon of the graticule’s extent.
+- [_graticule_.extent](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_extent) - get or set the major & minor extents.
+- [_graticule_.extentMajor](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_extentMajor) - get or set the major extent.
+- [_graticule_.extentMinor](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_extentMinor) - get or set the minor extent.
+- [_graticule_.step](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_step) - get or set the major & minor step intervals.
+- [_graticule_.stepMajor](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_stepMajor) - get or set the major step intervals.
+- [_graticule_.stepMinor](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_stepMinor) - get or set the minor step intervals.
+- [_graticule_.precision](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#graticule_precision) - get or set the latitudinal precision.
+- [d3.geoGraticule10](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#geoGraticule10) - generate the default 10° global graticule.

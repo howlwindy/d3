@@ -1,0 +1,36 @@
+## [Zooming (d3-zoom)](https://github.com/d3/d3-zoom/tree/v3.0.0)
+
+Pan and zoom SVG, HTML or Canvas using mouse or touch input.
+
+- [d3.zoom](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom) - create a zoom behavior.
+- [_zoom_](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#_zoom) - apply the zoom behavior to the selected elements.
+- [_zoom_.transform](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_transform) - change the transform for the selected elements.
+- [_zoom_.translateBy](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_translateBy) - translate the transform for the selected elements.
+- [_zoom_.translateTo](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_translateTo) - translate the transform for the selected elements.
+- [_zoom_.scaleBy](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_scaleBy) - scale the transform for the selected elements.
+- [_zoom_.scaleTo](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_scaleTo) - scale the transform for the selected elements.
+- [_zoom_.constrain](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_constrain) - override the transform constraint logic.
+- [_zoom_.filter](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_filter) - control which input events initiate zooming.
+- [_zoom_.touchable](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_touchable) - set the touch support detector.
+- [_zoom_.wheelDelta](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_wheelDelta) - override scaling for wheel events.
+- [_zoom_.extent](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_extent) - set the extent of the viewport.
+- [_zoom_.scaleExtent](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_scaleExtent) - set the allowed scale range.
+- [_zoom_.translateExtent](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_translateExtent) - set the extent of the zoomable world.
+- [_zoom_.clickDistance](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_clickDistance) - set the click distance threshold.
+- [_zoom_.tapDistance](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_tapDistance) - set the tap distance threshold.
+- [_zoom_.duration](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_duration) - set the duration of zoom transitions.
+- [_zoom_.interpolate](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_interpolate) - control the interpolation of zoom transitions.
+- [_zoom_.on](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoom_on) - listen for zoom events.
+- [d3.zoomTransform](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoomTransform) - get the zoom transform for a given element.
+- [_transform_.scale](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_scale) - scale a transform by the specified amount.
+- [_transform_.translate](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_translate) - translate a transform by the specified amount.
+- [_transform_.apply](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_apply) - apply the transform to the given point.
+- [_transform_.applyX](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_applyX) - apply the transform to the given _x_-coordinate.
+- [_transform_.applyY](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_applyY) - apply the transform to the given _y_-coordinate.
+- [_transform_.invert](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_invert) - unapply the transform to the given point.
+- [_transform_.invertX](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_invertX) - unapply the transform to the given _x_-coordinate.
+- [_transform_.invertY](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_invertY) - unapply the transform to the given _y_-coordinate.
+- [_transform_.rescaleX](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_rescaleX) - apply the transform to an _x_-scale’s domain.
+- [_transform_.rescaleY](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_rescaleY) - apply the transform to a _y_-scale’s domain.
+- [_transform_.toString](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#transform_toString) - format the transform as an SVG transform string.
+- [d3.zoomIdentity](https://github.com/d3/d3-zoom/blob/v3.0.0/README.md#zoomIdentity) - the identity transform.

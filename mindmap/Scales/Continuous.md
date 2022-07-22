@@ -1,0 +1,62 @@
+### [Continuous Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous-scales)
+
+Map a continuous, quantitative domain to a continuous range.
+
+- [_continuous_](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#_continuous) - compute the range value corresponding to a given domain value.
+- [_continuous_.invert](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_invert) - compute the domain value corresponding to a given range value.
+- [_continuous_.domain](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_domain) - set the input domain.
+- [_continuous_.range](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_range) - set the output range.
+- [_continuous_.rangeRound](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_rangeRound) - set the output range and enable rounding.
+- [_continuous_.clamp](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_clamp) - enable clamping to the domain or range.
+- [_continuous_.unknown](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_unknown) - set the output value for unknown inputs.
+- [_continuous_.interpolate](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_interpolate) - set the output interpolator.
+- [_continuous_.ticks](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_ticks) - compute representative values from the domain.
+- [_continuous_.tickFormat](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_tickFormat) - format ticks for human consumption.
+- [_continuous_.nice](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_nice) - extend the domain to nice round numbers.
+- [_continuous_.copy](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous_copy) - create a copy of this scale.
+- [d3.tickFormat](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#tickFormat) - format ticks for human consumption.
+- [d3.scaleLinear](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleLinear) - create a quantitative linear scale.
+- [d3.scalePow](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scalePow) - create a quantitative power scale.
+- [_pow_](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#_pow) - compute the range value corresponding to a given domain value.
+- [_pow_.invert](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_invert) - compute the domain value corresponding to a given range value.
+- [_pow_.exponent](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_exponent) - set the power exponent.
+- [_pow_.domain](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_domain) - set the input domain.
+- [_pow_.range](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_range) - set the output range.
+- [_pow_.rangeRound](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_rangeRound) - set the output range and enable rounding.
+- [_pow_.clamp](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_clamp) - enable clamping to the domain or range.
+- [_pow_.interpolate](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_interpolate) - set the output interpolator.
+- [_pow_.ticks](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_ticks) - compute representative values from the domain.
+- [_pow_.tickFormat](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_tickFormat) - format ticks for human consumption.
+- [_pow_.nice](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_nice) - extend the domain to nice round numbers.
+- [_pow_.copy](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#pow_copy) - create a copy of this scale.
+- [d3.scaleSqrt](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleSqrt) - create a quantitative power scale with exponent 0.5.
+- [d3.scaleLog](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleLog) - create a quantitative logarithmic scale.
+- [_log_](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#_log) - compute the range value corresponding to a given domain value.
+- [_log_.invert](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_invert) - compute the domain value corresponding to a given range value.
+- [_log_.base](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_base) - set the logarithm base.
+- [_log_.domain](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_domain) - set the input domain.
+- [_log_.range](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_range) - set the output range.
+- [_log_.rangeRound](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_rangeRound) - set the output range and enable rounding.
+- [_log_.clamp](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_clamp) - enable clamping to the domain or range.
+- [_log_.interpolate](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_interpolate) - set the output interpolator.
+- [_log_.ticks](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_ticks) - compute representative values from the domain.
+- [_log_.tickFormat](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_tickFormat) - format ticks for human consumption.
+- [_log_.nice](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_nice) - extend the domain to nice round numbers.
+- [_log_.copy](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#log_copy) - create a copy of this scale.
+- [d3.scaleSymlog](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleSymlog) - create a symmetric logarithmic scale.
+- [_symlog_.constant](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#symlog_constant) - set the constant of a symlog scale.
+- [d3.scaleIdentity](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleIdentity) - creates an identity scale.
+- [d3.scaleRadial](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleRadial) - creates a radial scale.
+- [d3.scaleTime](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleTime) - create a linear scale for time.
+- [_time_](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#_time) - compute the range value corresponding to a given domain value.
+- [_time_.invert](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_invert) - compute the domain value corresponding to a given range value.
+- [_time_.domain](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_domain) - set the input domain.
+- [_time_.range](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_range) - set the output range.
+- [_time_.rangeRound](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_rangeRound) - set the output range and enable rounding.
+- [_time_.clamp](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_clamp) - enable clamping to the domain or range.
+- [_time_.interpolate](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_interpolate) - set the output interpolator.
+- [_time_.ticks](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_ticks) - compute representative values from the domain.
+- [_time_.tickFormat](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_tickFormat) - format ticks for human consumption.
+- [_time_.nice](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_nice) - extend the domain to nice round times.
+- [_time_.copy](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#time_copy) - create a copy of this scale.
+- [d3.scaleUtc](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#scaleUtc) - create a linear scale for UTC.

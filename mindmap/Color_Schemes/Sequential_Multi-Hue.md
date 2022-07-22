@@ -1,0 +1,35 @@
+### Sequential (Multi-Hue)
+
+- [d3.interpolateBuGn](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateBuGn) - ColorBrewer BuGn interpolator.
+- [d3.interpolateBuPu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateBuPu) - ColorBrewer BuPu interpolator.
+- [d3.interpolateCividis](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateCividis) - cividis interpolator.
+- [d3.interpolateCool](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateCool) - cool interpolator.
+- [d3.interpolateCubehelixDefault](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateCubehelixDefault) - cubehelix interpolator.
+- [d3.interpolateGnBu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateGnBu) - ColorBrewer GnBu interpolator.
+- [d3.interpolateInferno](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateInferno) - inferno interpolator.
+- [d3.interpolateMagma](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateMagma) - magma interpolator.
+- [d3.interpolateOrRd](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateOrRd) - ColorBrewer OrRd interpolator.
+- [d3.interpolatePlasma](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolatePlasma) - plasma interpolator.
+- [d3.interpolatePuBu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolatePuBu) - ColorBrewer PuBu interpolator.
+- [d3.interpolatePuBuGn](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolatePuBuGn) - ColorBrewer PuBuGn interpolator.
+- [d3.interpolatePuRd](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolatePuRd) - ColorBrewer PuRd interpolator.
+- [d3.interpolateRdPu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateRdPu) - ColorBrewer RdPu interpolator.
+- [d3.interpolateTurbo](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateTurbo) - turbo interpolator.
+- [d3.interpolateViridis](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateViridis) - viridis interpolator.
+- [d3.interpolateWarm](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateWarm) - warm interpolator.
+- [d3.interpolateYlGn](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateYlGn) - ColorBrewer YlGn interpolator.
+- [d3.interpolateYlGnBu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateYlGnBu) - ColorBrewer YlGnBu interpolator.
+- [d3.interpolateYlOrBr](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateYlOrBr) - ColorBrewer YlOrBr interpolator.
+- [d3.interpolateYlOrRd](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateYlOrRd) - ColorBrewer YlOrRd interpolator.
+- [d3.schemeBuGn](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeBuGn) - ColorBrewer BuGn scheme.
+- [d3.schemeBuPu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeBuPu) - ColorBrewer BuPu scheme.
+- [d3.schemeGnBu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeGnBu) - ColorBrewer GnBu scheme.
+- [d3.schemeOrRd](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeOrRd) - ColorBrewer OrRd scheme.
+- [d3.schemePuBu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemePuBu) - ColorBrewer PuBu scheme.
+- [d3.schemePuBuGn](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemePuBuGn) - ColorBrewer PuBuGn scheme.
+- [d3.schemePuRd](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemePuRd) - ColorBrewer PuRd scheme.
+- [d3.schemeRdPu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeRdPu) - ColorBrewer RdPu scheme.
+- [d3.schemeYlGn](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeYlGn) - ColorBrewer YlGn scheme.
+- [d3.schemeYlGnBu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeYlGnBu) - ColorBrewer YlGnBu scheme.
+- [d3.schemeYlOrBr](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeYlOrBr) - ColorBrewer YlOrBr scheme.
+- [d3.schemeYlOrRd](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeYlOrRd) - ColorBrewer YlOrRd scheme.

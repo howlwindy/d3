@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 cd mindmap
+touch README.md
 
 mkdir Arrays
 cd Arrays
@@ -31,6 +32,7 @@ cd ../
 mkdir Color_Schemes
 cd Color_Schemes
 touch README.md
+touch Categorical.md Diverging.md Sequential_Single-Hue.md Sequential_Multi-Hue.md Cyclical.md
 
 cd ../
 mkdir Contours
@@ -81,7 +83,7 @@ cd ../
 mkdir Geographies
 cd Geographies
 touch README.md
-touch Paths.md Projections.md Spherical Math.md Spherical Shapes.md Streams.md Transforms.md
+touch Paths.md Projections.md Raw_projections.md Spherical_Math.md Spherical_Shapes.md Shapes.md Streams.md Transforms.md Clipping.md
 
 cd ../
 mkdir Hierarchies
@@ -123,13 +125,13 @@ cd ../
 mkdir Selections
 cd Selections
 touch README.md
-touch Selecting.md Modifying.md Data.md Events.md Control.md Local Variables.md Namespaces.md
+touch Selecting_Elements.md Modifying_Elements.md Joining_Data.md Handling_Events.md Control_Flow.md Local_Variables.md Namespaces.md
 
 cd ../
 mkdir Shapes
 cd Shapes
 touch README.md
-Arcs.md Pies.md Lines.md Areas.md Curves.md Links.md Symbols.md Stacks.md
+touch Arcs.md Pies.md Lines.md Areas.md Curves.md Links.md Symbols.md Stacks.md
 touch README.md
 
 cd ../

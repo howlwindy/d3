@@ -1,0 +1,50 @@
+## [Forces (d3-force)](https://github.com/d3/d3-force/tree/v3.0.0)
+
+Force-directed graph layout using velocity Verlet integration.
+
+- [d3.forceSimulation](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceSimulation) - create a new force simulation.
+- [_simulation_.restart](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_restart) - reheat and restart the simulation’s timer.
+- [_simulation_.stop](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_stop) - stop the simulation’s timer.
+- [_simulation_.tick](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_tick) - advance the simulation one step.
+- [_simulation_.nodes](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_nodes) - set the simulation’s nodes.
+- [_simulation_.alpha](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_alpha) - set the current alpha.
+- [_simulation_.alphaMin](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_alphaMin) - set the minimum alpha threshold.
+- [_simulation_.alphaDecay](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_alphaDecay) - set the alpha exponential decay rate.
+- [_simulation_.alphaTarget](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_alphaTarget) - set the target alpha.
+- [_simulation_.velocityDecay](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_velocityDecay) - set the velocity decay rate.
+- [_simulation_.force](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_force) - add or remove a force.
+- [_simulation_.find](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_find) - find the closest node to the given position.
+- [_simulation_.randomSource](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_randomSource) - set the simulation’s random source.
+- [_simulation_.on](https://github.com/d3/d3-force/blob/v3.0.0/README.md#simulation_on) - add or remove an event listener.
+- [_force_](https://github.com/d3/d3-force/blob/v3.0.0/README.md#_force) - apply the force.
+- [_force_.initialize](https://github.com/d3/d3-force/blob/v3.0.0/README.md#force_initialize) - initialize the force with the given nodes.
+- [d3.forceCenter](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceCenter) - create a centering force.
+- [_center_.x](https://github.com/d3/d3-force/blob/v3.0.0/README.md#center_x) - set the center _x_-coordinate.
+- [_center_.y](https://github.com/d3/d3-force/blob/v3.0.0/README.md#center_y) - set the center _y_-coordinate.
+- [_center_.strength](https://github.com/d3/d3-force/blob/v3.0.0/README.md#center_strength) - set the strength of the centering force.
+- [d3.forceCollide](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceCollide) - create a circle collision force.
+- [_collide_.radius](https://github.com/d3/d3-force/blob/v3.0.0/README.md#collide_radius) - set the circle radius.
+- [_collide_.strength](https://github.com/d3/d3-force/blob/v3.0.0/README.md#collide_strength) - set the collision resolution strength.
+- [_collide_.iterations](https://github.com/d3/d3-force/blob/v3.0.0/README.md#collide_iterations) - set the number of iterations.
+- [d3.forceLink](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceLink) - create a link force.
+- [_link_.links](https://github.com/d3/d3-force/blob/v3.0.0/README.md#link_links) - set the array of links.
+- [_link_.id](https://github.com/d3/d3-force/blob/v3.0.0/README.md#link_id) - link nodes by numeric index or string identifier.
+- [_link_.distance](https://github.com/d3/d3-force/blob/v3.0.0/README.md#link_distance) - set the link distance.
+- [_link_.strength](https://github.com/d3/d3-force/blob/v3.0.0/README.md#link_strength) - set the link strength.
+- [_link_.iterations](https://github.com/d3/d3-force/blob/v3.0.0/README.md#link_iterations) - set the number of iterations.
+- [d3.forceManyBody](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceManyBody) - create a many-body force.
+- [_manyBody_.strength](https://github.com/d3/d3-force/blob/v3.0.0/README.md#manyBody_strength) - set the force strength.
+- [_manyBody_.theta](https://github.com/d3/d3-force/blob/v3.0.0/README.md#manyBody_theta) - set the Barnes–Hut approximation accuracy.
+- [_manyBody_.distanceMin](https://github.com/d3/d3-force/blob/v3.0.0/README.md#manyBody_distanceMin) - limit the force when nodes are close.
+- [_manyBody_.distanceMax](https://github.com/d3/d3-force/blob/v3.0.0/README.md#manyBody_distanceMax) - limit the force when nodes are far.
+- [d3.forceX](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceX) - create an _x_-positioning force.
+- [_x_.strength](https://github.com/d3/d3-force/blob/v3.0.0/README.md#x_strength) - set the force strength.
+- [_x_.x](https://github.com/d3/d3-force/blob/v3.0.0/README.md#x_x) - set the target _x_-coordinate.
+- [d3.forceY](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceY) - create an _y_-positioning force.
+- [_y_.strength](https://github.com/d3/d3-force/blob/v3.0.0/README.md#y_strength) - set the force strength.
+- [_y_.y](https://github.com/d3/d3-force/blob/v3.0.0/README.md#y_y) - set the target _y_-coordinate.
+- [d3.forceRadial](https://github.com/d3/d3-force/blob/v3.0.0/README.md#forceRadial) - create a radial positioning force.
+- [_radial_.strength](https://github.com/d3/d3-force/blob/v3.0.0/README.md#radial_strength) - set the force strength.
+- [_radial_.radius](https://github.com/d3/d3-force/blob/v3.0.0/README.md#radial_radius) - set the target radius.
+- [_radial_.x](https://github.com/d3/d3-force/blob/v3.0.0/README.md#radial_x) - set the target center _x_-coordinate.
+- [_radial_.y](https://github.com/d3/d3-force/blob/v3.0.0/README.md#radial_y) - set the target center _y_-coordinate.
