@@ -1,4 +1,4 @@
-### [Paths](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#paths)
+    - [Paths](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#paths)
 
 - [d3.geoPath](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#geoPath) - create a new geographic path generator.
 - [_path_](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#_path) - project and render the specified feature.

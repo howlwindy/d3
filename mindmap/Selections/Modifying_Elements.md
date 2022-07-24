@@ -1,4 +1,4 @@
-### [Modifying Elements](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#modifying-elements)
+    - [Modifying Elements](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#modifying-elements)
 
 - [_selection_.attr](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection_attr) - get or set an attribute.
 - [_selection_.classed](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection_classed) - get, add or remove CSS classes.

@@ -1,4 +1,4 @@
-## [Forces (d3-force)](https://github.com/d3/d3-force/tree/v3.0.0)
+- [Forces (d3-force)](https://github.com/d3/d3-force/tree/v3.0.0)
 
 Force-directed graph layout using velocity Verlet integration.
 

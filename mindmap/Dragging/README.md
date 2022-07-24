@@ -1,4 +1,4 @@
-## [Dragging (d3-drag)](https://github.com/d3/d3-drag/tree/v3.0.0)
+- [Dragging (d3-drag)](https://github.com/d3/d3-drag/tree/v3.0.0)
 
 Drag and drop SVG, HTML or Canvas using mouse or touch input.
 

@@ -1,4 +1,4 @@
-### [Lines](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#lines)
+    - [Lines](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#lines)
 
 A spline or polyline, as in a line chart.
 

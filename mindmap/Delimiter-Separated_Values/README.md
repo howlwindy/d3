@@ -1,4 +1,4 @@
-## [Delimiter-Separated Values (d3-dsv)](https://github.com/d3/d3-dsv/tree/v3.0.1)
+- [Delimiter-Separated Values (d3-dsv)](https://github.com/d3/d3-dsv/tree/v3.0.1)
 
 Parse and format delimiter-separated values, most commonly CSV and TSV.
 

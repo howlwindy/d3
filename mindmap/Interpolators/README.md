@@ -1,4 +1,4 @@
-## [Interpolators (d3-interpolate)](https://github.com/d3/d3-interpolate/tree/v3.0.1)
+- [Interpolators (d3-interpolate)](https://github.com/d3/d3-interpolate/tree/v3.0.1)
 
 Interpolate numbers, colors, strings, arrays, objects, whatever!
 

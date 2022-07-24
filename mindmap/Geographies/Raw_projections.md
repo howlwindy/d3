@@ -1,4 +1,4 @@
-### [Raw projections](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#raw-projections)
+    - [Raw projections](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#raw-projections)
 
 - [_project_](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#_project) - project the specified point from the sphere to the plane.
 - [_project_.invert](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#project_invert) - unproject the specified point from the plane to the sphere.

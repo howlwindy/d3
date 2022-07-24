@@ -1,4 +1,4 @@
-### Diverging
+    - Diverging
 
 - [d3.interpolateBrBG](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateBrBG) - ColorBrewer BrBG interpolator.
 - [d3.interpolatePiYG](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolatePiYG) - ColorBrewer PiYG interpolator.

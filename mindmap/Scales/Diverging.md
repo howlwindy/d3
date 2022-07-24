@@ -1,4 +1,4 @@
-### [Diverging Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#diverging-scales)
+    - [Diverging Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#diverging-scales)
 
 Map a continuous, quantitative domain to a continuous, fixed interpolator.
 

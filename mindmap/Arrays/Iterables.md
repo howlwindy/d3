@@ -1,4 +1,4 @@
-### [Iterables](https://github.com/d3/d3-array/blob/v3.2.0/README.md#iterables)
+    - [Iterables](https://github.com/d3/d3-array/blob/v3.2.0/README.md#iterables)
 
 - [d3.every](https://github.com/d3/d3-array/blob/v3.2.0/README.md#every) - test if all values satisfy a condition.
 - [d3.some](https://github.com/d3/d3-array/blob/v3.2.0/README.md#some) - test if any value satisfies a condition.

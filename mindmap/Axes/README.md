@@ -1,4 +1,4 @@
-## [Axes (d3-axis)](https://github.com/d3/d3-axis/tree/v3.0.0)
+- [Axes (d3-axis)](https://github.com/d3/d3-axis/tree/v3.0.0)
 
 Human-readable reference marks for scales.
 

@@ -1,4 +1,4 @@
-## [Zooming (d3-zoom)](https://github.com/d3/d3-zoom/tree/v3.0.0)
+- [Zooming (d3-zoom)](https://github.com/d3/d3-zoom/tree/v3.0.0)
 
 Pan and zoom SVG, HTML or Canvas using mouse or touch input.
 

@@ -1,4 +1,4 @@
-## [Dispatches (d3-dispatch)](https://github.com/d3/d3-dispatch/tree/v3.0.1)
+- [Dispatches (d3-dispatch)](https://github.com/d3/d3-dispatch/tree/v3.0.1)
 
 Separate concerns using named callbacks.
 

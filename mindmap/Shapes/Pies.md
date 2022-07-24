@@ -1,4 +1,4 @@
-### [Pies](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#pies)
+    - [Pies](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#pies)
 
 Compute the necessary angles to represent a tabular dataset as a pie or donut chart.
 

@@ -1,4 +1,4 @@
-## [Fetches (d3-fetch)](https://github.com/d3/d3-fetch/tree/v3.0.1)
+- [Fetches (d3-fetch)](https://github.com/d3/d3-fetch/tree/v3.0.1)
 
 Convenience methods on top of the Fetch API.
 

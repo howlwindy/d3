@@ -1,4 +1,4 @@
-## [Transitions (d3-transition)](https://github.com/d3/d3-transition/tree/v3.0.1)
+- [Transitions (d3-transition)](https://github.com/d3/d3-transition/tree/v3.0.1)
 
 Animated transitions for [selections](#selections).
 

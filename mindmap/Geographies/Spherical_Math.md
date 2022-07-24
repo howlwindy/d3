@@ -1,4 +1,4 @@
-### [Spherical Math](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#spherical-math)
+    - [Spherical Math](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#spherical-math)
 
 - [d3.geoArea](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#geoArea) - compute the spherical area of a given feature.
 - [d3.geoBounds](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#geoBounds) - compute the latitude-longitude bounding box for a given feature.

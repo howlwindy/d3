@@ -1,4 +1,4 @@
-### [Sequential Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#sequential-scales)
+    - [Sequential Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#sequential-scales)
 
 Map a continuous, quantitative domain to a continuous, fixed interpolator.
 

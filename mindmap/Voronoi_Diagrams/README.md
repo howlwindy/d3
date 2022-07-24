@@ -1,4 +1,4 @@
-## [Voronoi Diagrams (d3-delaunay)](https://github.com/d3/d3-delaunay/tree/v6.0.2)
+- [Voronoi Diagrams (d3-delaunay)](https://github.com/d3/d3-delaunay/tree/v6.0.2)
 
 Compute the Voronoi diagram of a set of two-dimensional points.
 

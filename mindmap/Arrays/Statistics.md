@@ -1,4 +1,4 @@
-### [Statistics](https://github.com/d3/d3-array/blob/v3.2.0/README.md#statistics)
+    - [Statistics](https://github.com/d3/d3-array/blob/v3.2.0/README.md#statistics)
 
 Methods for computing basic summary statistics.
 
@@ -21,7 +21,7 @@ Methods for computing basic summary statistics.
 - [d3.deviation](https://github.com/d3/d3-array/blob/v3.2.0/README.md#deviation) - compute the standard deviation of an iterable of numbers.
 - [d3.fcumsum](https://github.com/d3/d3-array/blob/v3.2.0/README.md#fcumsum) - compute a full precision cumulative summation of numbers.
 - [d3.fsum](https://github.com/d3/d3-array/blob/v3.2.0/README.md#fsum) - compute a full precision summation of an iterable of numbers.
-- [new d3.Adder](https://github.com/d3/d3-array/blob/v3.2.0/README.md#adder) - creates a full precision adder.
+- [new d3. Adder](https://github.com/d3/d3-array/blob/v3.2.0/README.md#adder) - creates a full precision adder.
 - [_adder_.add](https://github.com/d3/d3-array/blob/v3.2.0/README.md#adder_add) - add a value to an adder.
 - [_adder_.valueOf](https://github.com/d3/d3-array/blob/v3.2.0/README.md#adder_valueOf) - returns a double precision representation of an adder’s value.
 - [d3.blur](https://github.com/d3/d3-array/blob/v3.2.0/README.md#blur) - blur an array of numbers in place.

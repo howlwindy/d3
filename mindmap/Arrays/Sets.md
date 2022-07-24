@@ -1,4 +1,4 @@
-### [Sets](https://github.com/d3/d3-array/blob/v3.2.0/README.md#sets)
+    - [Sets](https://github.com/d3/d3-array/blob/v3.2.0/README.md#sets)
 
 - [d3.difference](https://github.com/d3/d3-array/blob/v3.2.0/README.md#difference) - compute a set difference.
 - [d3.disjoint](https://github.com/d3/d3-array/blob/v3.2.0/README.md#disjoint) - test whether two sets are disjoint.

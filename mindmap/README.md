@@ -1,233 +1,268 @@
-# D3 API Reference
-
-D3 is a [collection of modules](https://github.com/d3) that are designed to work together; you can use the modules independently, or you can use them together as part of the default build. The source and documentation for each module is available in its repository. Follow the links below to learn more. For changes between major versions, see [CHANGES](https://github.com/d3/d3/blob/master/CHANGES.md); see also the [release notes](https://github.com/d3/d3/releases) and the [3.x reference](https://github.com/d3/d3-3.x-api-reference/blob/master/API-Reference.md).
-
-D3 uses [semantic versioning](http://semver.org/). The current version is exposed as d3.version.
-
-## [Arrays (d3-array)](https://github.com/d3/d3-array/tree/v3.2.0)
-
-Array manipulation, ordering, searching, summarizing, etc.
-
-### [Statistics](https://github.com/d3/d3-array/blob/v3.2.0/README.md#statistics)
-
-Methods for computing basic summary statistics.
-
-### [Search](https://github.com/d3/d3-array/blob/v3.2.0/README.md#search)
-
-Methods for searching arrays for a specific element.
-
-### [Transformations](https://github.com/d3/d3-array/blob/v3.2.0/README.md#transformations)
-
-Methods for transforming arrays and for generating new arrays.
-
-### [Iterables](https://github.com/d3/d3-array/blob/v3.2.0/README.md#iterables)
-
-### [Sets](https://github.com/d3/d3-array/blob/v3.2.0/README.md#sets)
-
-### [Histograms](https://github.com/d3/d3-array/blob/v3.2.0/README.md#bins)
-
-Bin discrete samples into continuous, non-overlapping intervals.
-
-### [Interning](https://github.com/d3/d3-array/blob/v3.2.0/README.md#interning)
-
-## [Axes (d3-axis)](https://github.com/d3/d3-axis/tree/v3.0.0)
-
-Human-readable reference marks for scales.
-
-## [Brushes (d3-brush)](https://github.com/d3/d3-brush/tree/v3.0.0)
-
-Select a one- or two-dimensional region using the mouse or touch.
-
-## [Chords (d3-chord)](https://github.com/d3/d3-chord/tree/v3.0.1)
-
-## [Colors (d3-color)](https://github.com/d3/d3-color/tree/v3.1.0)
-
-Color manipulation and color space conversion.
-
-## [Color Schemes (d3-scale-chromatic)](https://github.com/d3/d3-scale-chromatic/tree/v3.0.0)
-
-Color ramps and palettes for quantitative, ordinal and categorical scales.
-
-### Categorical
-
-### Diverging
-
-### Sequential (Single Hue)
-
-### Sequential (Multi-Hue)
-
-### Cyclical
-
-## [Contours (d3-contour)](https://github.com/d3/d3-contour/tree/v4.0.0)
-
-Compute contour polygons using marching squares.
-
-## [Voronoi Diagrams (d3-delaunay)](https://github.com/d3/d3-delaunay/tree/v6.0.2)
-
-Compute the Voronoi diagram of a set of two-dimensional points.
-
-## [Dispatches (d3-dispatch)](https://github.com/d3/d3-dispatch/tree/v3.0.1)
-
-Separate concerns using named callbacks.
-
-## [Dragging (d3-drag)](https://github.com/d3/d3-drag/tree/v3.0.0)
-
-Drag and drop SVG, HTML or Canvas using mouse or touch input.
-
-## [Delimiter-Separated Values (d3-dsv)](https://github.com/d3/d3-dsv/tree/v3.0.1)
-
-Parse and format delimiter-separated values, most commonly CSV and TSV.
-
-## [Easings (d3-ease)](https://github.com/d3/d3-ease/tree/v3.0.1)
-
-Easing functions for smooth animation.
-
-## [Fetches (d3-fetch)](https://github.com/d3/d3-fetch/tree/v3.0.1)
-
-Convenience methods on top of the Fetch API.
-
-## [Forces (d3-force)](https://github.com/d3/d3-force/tree/v3.0.0)
-
-Force-directed graph layout using velocity Verlet integration.
-
-## [Number Formats (d3-format)](https://github.com/d3/d3-format/tree/v3.1.0)
-
-Format numbers for human consumption.
-
-## [Geographies (d3-geo)](https://github.com/d3/d3-geo/tree/v3.0.1)
-
-Geographic projections, shapes and math.
-
-### [Paths](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#paths)
-
-### [Projections](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#projections)
-
-### [Spherical Math](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#spherical-math)
-
-### [Spherical Shapes](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#spherical-shapes)
-
-### [Streams](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#streams)
-
-### [Clipping](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#clipping)
-
-## [Hierarchies (d3-hierarchy)](https://github.com/d3/d3-hierarchy/tree/v3.1.2)
-
-Layout algorithms for visualizing hierarchical data.
-
-## [Interpolators (d3-interpolate)](https://github.com/d3/d3-interpolate/tree/v3.0.1)
-
-Interpolate numbers, colors, strings, arrays, objects, whatever!
-
-## [Paths (d3-path)](https://github.com/d3/d3-path/tree/v3.0.1)
-
-Serialize Canvas path commands to SVG.
-
-## [Polygons (d3-polygon)](https://github.com/d3/d3-polygon/tree/v3.0.1)
-
-Geometric operations for two-dimensional polygons.
-
-## [Quadtrees (d3-quadtree)](https://github.com/d3/d3-quadtree/tree/v3.0.1)
-
-Two-dimensional recursive spatial subdivision.
-
-## [Random Numbers (d3-random)](https://github.com/d3/d3-random/tree/v3.0.1)
-
-Generate random numbers from various distributions.
-
-## [Scales (d3-scale)](https://github.com/d3/d3-scale/tree/v4.0.2)
-
-Encodings that map abstract data to visual representation.
-
-### [Continuous Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#continuous-scales)
-
-Map a continuous, quantitative domain to a continuous range.
-
-### [Sequential Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#sequential-scales)
-
-Map a continuous, quantitative domain to a continuous, fixed interpolator.
-
-### [Diverging Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#diverging-scales)
-
-Map a continuous, quantitative domain to a continuous, fixed interpolator.
-
-### [Quantize Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#quantize-scales)
-
-Map a continuous, quantitative domain to a discrete range.
-
-### [Ordinal Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#ordinal-scales)
-
-Map a discrete domain to a discrete range.
-
-## [Selections (d3-selection)](https://github.com/d3/d3-selection/tree/v3.0.0)
-
-Transform the DOM by selecting elements and joining to data.
-
-### [Selecting Elements](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selecting-elements)
-
-### [Modifying Elements](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#modifying-elements)
-
-### [Joining Data](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#joining-data)
-
-### [Handling Events](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#handling-events)
-
-### [Control Flow](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#control-flow)
-
-### [Local Variables](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#local-variables)
-
-### [Namespaces](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#namespaces)
-
-## [Shapes (d3-shape)](https://github.com/d3/d3-shape/tree/v3.1.0)
-
-Graphical primitives for visualization.
-
-### [Arcs](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#arcs)
-
-Circular or annular sectors, as in a pie or donut chart.
-
-### [Pies](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#pies)
-
-Compute the necessary angles to represent a tabular dataset as a pie or donut chart.
-
-### [Lines](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#lines)
-
-A spline or polyline, as in a line chart.
-
-### [Areas](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#areas)
-
-An area, defined by a bounding topline and baseline, as in an area chart.
-
-### [Curves](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#curves)
-
-Interpolate between points to produce a continuous shape.
-
-### [Links](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#links)
-
-A smooth cubic Bézier curve from a source to a target.
-
-### [Symbols](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#symbols)
-
-A categorical shape encoding, as in a scatterplot.
-
-### [Stacks](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#stacks)
-
-Stack shapes, placing one adjacent to another, as in a stacked bar chart.
-
-## [Time Formats (d3-time-format)](https://github.com/d3/d3-time-format/tree/v4.0.0)
-
-Parse and format times, inspired by strptime and strftime.
-
-## [Time Intervals (d3-time)](https://github.com/d3/d3-time/tree/v3.0.0)
-
-A calculator for humanity’s peculiar conventions of time.
-
-## [Timers (d3-timer)](https://github.com/d3/d3-timer/tree/v3.0.1)
-
-An efficient queue for managing thousands of concurrent animations.
-
-## [Transitions (d3-transition)](https://github.com/d3/d3-transition/tree/v3.0.1)
-
-Animated transitions for [selections](#selections).
-
-## [Zooming (d3-zoom)](https://github.com/d3/d3-zoom/tree/v3.0.0)
-
-Pan and zoom SVG, HTML or Canvas using mouse or touch input.
+- [D3 API Reference](https://github.com/d3/d3)
+  - .
+    - [d3-array](https://github.com/d3/d3-array)
+      - iterator 的处理
+        - [Statistics](https://github.com/d3/d3-array#statistics)
+          - .
+        - [Search](https://github.com/d3/d3-array#search)
+          - .
+        - [Transformations](https://github.com/d3/d3-array#transformations)
+          - .
+            - [Blur](https://github.com/d3/d3-array#blur)
+              - .
+        - [Iterables](https://github.com/d3/d3-arrayiterables)
+          - .
+        - [Sets](https://github.com/d3/d3-arraysets)
+          - .
+        - [Bins](https://github.com/d3/d3-arraybins)
+          - .
+            - [Bin Thresholds](https://github.com/d3/d3-array#bin-thresholds)
+              - .
+        - [Interning](https://github.com/d3/d3-arrayinterning)
+          - .
+    - [d3-axis](https://github.com/d3/d3-axis)
+      - 用轴来提高可读性
+    - [d3-brush](https://github.com/d3/d3-brush)
+      - 选出 1-2 维的区域
+        - [Brush Events](https://github.com/d3/d3-brush#brush-events)
+          - .
+    - [d3-chord](https://github.com/d3/d3-chord)
+      - 环形的关系或网络
+    - [d3-color](https://github.com/d3/d3-color)
+      - 颜色处理
+    - [d3-scale-chromatic](https://github.com/d3/d3-scale-chromatic)
+      - 颜色方案
+        - [Categorical](https://github.com/d3/d3-scale-chromatic#categorical)
+          - .
+        - [Diverging](https://github.com/d3/d3-scale-chromatic#diverging)
+          - .
+        - [Sequential (Single Hue)](https://github.com/d3/d3-scale-chromatic#sequential-single-hue)
+          - .
+        - [Sequential (Multi-Hue)](https://github.com/d3/d3-scale-chromatic#sequential-multi-hue)
+          - .
+        - [Cyclical](https://github.com/d3/d3-scale-chromatic#cyclical)
+          - .
+    - [d3-contour](https://github.com/d3/d3-contour)
+      - 多边形轮廓
+    - [d3-delaunay](https://github.com/d3/d3-delaunay)
+      - 二维点的 Voronoi 图
+        - [Delaunay](https://github.com/d3/d3-delaunay#delaunay)
+          - .
+        - [Voronoi](https://github.com/d3/d3-delaunay#voronoi)
+          - .
+    - [d3-dispatch](https://github.com/d3/d3-dispatch)
+      - 用低耦合的编码方式达到关注点分离的机制
+    - [d3-drag](https://github.com/d3/d3-drag)
+      - 拖动
+        - [Drag Events](https://github.com/d3/d3-drag#drag-events)
+          - .
+    - [d3-dsv](https://github.com/d3/d3-dsv)
+      - dsv 数据的格式化和解析
+        - [Content Security Policy](https://github.com/d3/d3-dsv#content-security-policy)
+          - .
+        - [Byte-Order Marks](https://github.com/d3/d3-dsv#byte-order-marks)
+          - .
+        - [dsv2dsv](https://github.com/d3/d3-dsv#dsv2dsv)
+          - .
+        - [dsv2json](https://github.com/d3/d3-dsv#dsv2json)
+          - .
+        - [json2dsv](https://github.com/d3/d3-dsv#json2dsv)
+          - .
+    - [d3-ease](https://github.com/d3/d3-ease)
+      - easing
+    - [d3-fetch](https://github.com/d3/d3-fetch)
+      - fetch 的封装
+    - [d3-force](https://github.com/d3/d3-force)
+      - 用韦尔莱积分法模拟粒子物理力传导
+        - [Simulation](https://github.com/d3/d3-force#simulation)
+          - .
+        - [Forces](https://github.com/d3/d3-force#forces)
+          - .
+            - [Centering](https://github.com/d3/d3-force#centering)
+              - .
+            - [Collision](https://github.com/d3/d3-force#collision)
+              - .
+            - [Links](https://github.com/d3/d3-force#links)
+              - .
+            - [Many-Body](https://github.com/d3/d3-force#many-body)
+              - .
+            - [Positioning](https://github.com/d3/d3-force#positioning)
+              - .
+    - [d3-format](https://github.com/d3/d3-format)
+      - 格式化数字
+        - [Locales](https://github.com/d3/d3-format#locales)
+          - .
+    - [d3-geo](https://github.com/d3/d3-geo)
+      - 将地图投影转换为点
+        - [Paths](https://github.com/d3/d3-geo#paths)
+          - .
+        - [Projections](https://github.com/d3/d3-geo#projections)
+          - .
+            - [Azimuthal Projections](https://github.com/d3/d3-geo#azimuthal-projections)
+              - .
+            - [Equal-Earth](https://github.com/d3/d3-geo#equal-earth)
+              - .
+            - [Composite Projections](https://github.com/d3/d3-geo#composite-projections)
+              - .
+            - [Conic Projections](https://github.com/d3/d3-geo#conic-projections)
+              - .
+            - [Cylindrical Projections](https://github.com/d3/d3-geo#cylindrical-projections)
+              - .
+        - [Raw Projections](https://github.com/d3/d3-geo#raw-projections)
+          - .
+        - [Spherical Math](https://github.com/d3/d3-geo#spherical-math)
+          - .
+        - [Spherical Shapes](https://github.com/d3/d3-geo#spherical-shapes)
+          - .
+        - [Streams](https://github.com/d3/d3-geo#streams)
+          - .
+        - [Transforms](https://github.com/d3/d3-geo#transforms)
+          - .
+        - [Clipping](https://github.com/d3/d3-geo#clipping)
+          - .
+    - [d3-hierarchy](https://github.com/d3/d3-hierarchy)
+      - 具有层次的数据
+        - [Hierarchy](https://github.com/d3/d3-hierarchy#hierarchy)
+          - .
+            - [Stratify](https://github.com/d3/d3-hierarchy#stratify)
+              - .
+        - [Cluster](https://github.com/d3/d3-hierarchy#cluster)
+          - .
+        - [Tree](https://github.com/d3/d3-hierarchy#tree)
+          - .
+        - [Treemap](https://github.com/d3/d3-hierarchy#treemap)
+          - .
+            - [Treemap Tiling](https://github.com/d3/d3-hierarchy#treemap-tiling)
+              - .
+        - [Partition](https://github.com/d3/d3-hierarchy#partition)
+          - .
+        - [Pack](https://github.com/d3/d3-hierarchy#pack)
+          - .
+    - [d3-interpolate](https://github.com/d3/d3-interpolate)
+      - 混合两种数据
+        - [Sampling](https://github.com/d3/d3-interpolate#sampling)
+          - .
+        - [Color Spaces](https://github.com/d3/d3-interpolate#color-spaces)
+          - .
+        - [Splines](https://github.com/d3/d3-interpolate#splines)
+          - .
+        - [Piecewise](https://github.com/d3/d3-interpolate#piecewise)
+          - .
+    - [d3-path](https://github.com/d3/d3-path)
+      - 同样的代码可以被渲染为 canvas/svg
+    - [d3-polygon](https://github.com/d3/d3-polygon)
+      - 二维的多边形操作
+    - [d3-quadtree](https://github.com/d3/d3-quadtree)
+      - 递归部分二维空间为正方形，分割每个正方形为四个同样大小的正方形
+        - [Nodes](https://github.com/d3/d3-quadtree#nodes)
+          - .
+    - [d3-random](https://github.com/d3/d3-random)
+      - 从不同分布生成随机数
+    - [d3-scale](https://github.com/d3/d3-scale)
+      - 把抽象数据映射为可视化
+        - [Continuous Scales](https://github.com/d3/d3-scale#continuous-scales)
+          - .
+            - [Linear Scales](https://github.com/d3/d3-scale#linear-scales)
+              - .
+            - [Power Scales](https://github.com/d3/d3-scale#power-scales)
+              - .
+            - [Log Scales](https://github.com/d3/d3-scale#log-scales)
+              - .
+            - [Symlog Scales](https://github.com/d3/d3-scale#symlog-scales)
+              - .
+            - [Identity Scales](https://github.com/d3/d3-scale#identity-scales)
+              - .
+            - [Radial Scales](https://github.com/d3/d3-scale#radial-scales)
+              - .
+            - [Time Scales](https://github.com/d3/d3-scale#time-scales)
+              - .
+        - [Sequential Scales](https://github.com/d3/d3-scale#sequential-scales)
+          - .
+        - [Diverging Scales](https://github.com/d3/d3-scale#diverging-scales)
+          - .
+        - [Quantize Scales](https://github.com/d3/d3-scale#quantize-scales)
+          - .
+        - [Quantile Scales](https://github.com/d3/d3-scale#quantile-scales)
+          - .
+        - [Threshold Scales](https://github.com/d3/d3-scale#threshold-scales)
+          - .
+        - [Ordinal Scales](https://github.com/d3/d3-scale#ordinal-scales)
+          - .
+            - [Band Scales](https://github.com/d3/d3-scale#band-scales)
+              - .
+            - [Point Scales](https://github.com/d3/d3-scale#point-scales)
+              - .
+    - [d3-selection](https://github.com/d3/d3-selection)
+      - 将 dom 转换为 data-driven
+        - [Selecting Elements](https://github.com/d3/d3-selection#selecting-elements)
+          - .
+        - [Modifying Elements](https://github.com/d3/d3-selection#modifying-elements)
+          - .
+        - [Joining Data](https://github.com/d3/d3-selection#joining-data)
+          - .
+        - [Handling Events](https://github.com/d3/d3-selection#handling-events)
+          - .
+        - [Control Flow](https://github.com/d3/d3-selection#control-flow)
+          - .
+        - [Local Variables](https://github.com/d3/d3-selection#local-variables)
+          - .
+        - [Namespaces](https://github.com/d3/d3-selection#namespaces)
+          - .
+    - [d3-shape](https://github.com/d3/d3-shape)
+      - 基本形状
+        - [Arcs](https://github.com/d3/d3-shape#arcs)
+          - .
+        - [Pies](https://github.com/d3/d3-shape#pies)
+          - .
+        - [Lines](https://github.com/d3/d3-shape#lines)
+          - .
+        - [Areas](https://github.com/d3/d3-shape#areas)
+          - .
+        - [Curves](https://github.com/d3/d3-shape#curves)
+          - .
+        - [Custom Curves](https://github.com/d3/d3-shape#custom-curves)
+          - .
+        - [Links](https://github.com/d3/d3-shape#links)
+          - .
+        - [Symbols](https://github.com/d3/d3-shape#symbols)
+          - .
+        - [Custom Symbols Types](https://github.com/d3/d3-shape#custom-symbols-types)
+          - .
+        - [Stacks](https://github.com/d3/d3-shape#stacks)
+          - .
+        - [Stack Orders](https://github.com/d3/d3-shape#stack-orders)
+          - .
+        - [Stack Offsets](https://github.com/d3/d3-shape#stack-offsets)
+          - .
+    - [d3-time-format](https://github.com/d3/d3-time-format)
+      - 时间日期格式化
+        - [Locales](https://github.com/d3/d3-time-format#locales)
+          - .
+    - [d3-time](https://github.com/d3/d3-time)
+      - 时间工具
+        - [Intervals](https://github.com/d3/d3-time#intervals)
+          - .
+        - [Ranges](https://github.com/d3/d3-time#ranges)
+          - .
+        - [Ticks](https://github.com/d3/d3-time#ticks)
+          - .
+    - [d3-timer](https://github.com/d3/d3-timer)
+      - 管理高并发动画的高效队列
+    - [d3-transition](https://github.com/d3/d3-transition)
+      - 改变 dom 的过度动画
+        - [Selection Elements](https://github.com/d3/d3-transition#selection-elements)
+          - .
+        - [Modifying Elements](https://github.com/d3/d3-transition#modifying-elements)
+          - .
+        - [Timing](https://github.com/d3/d3-transition#timing)
+          - .
+        - [Control Flow](https://github.com/d3/d3-transition#control-flow)
+          - .
+        - [The Life of a Transition](https://github.com/d3/d3-transition#the-life-of-a-transition)
+          - .
+    - [d3-zoom](https://github.com/d3/d3-zoom)
+      - 缩放
+        - [Zoom Events](https://github.com/d3/d3-zoom#zoom-events)
+          - .
+        - [Zoom Transforms](https://github.com/d3/d3-zoom#zoom-transforms)
+          - .

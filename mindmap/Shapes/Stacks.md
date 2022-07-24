@@ -1,4 +1,4 @@
-### [Stacks](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#stacks)
+    - [Stacks](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#stacks)
 
 Stack shapes, placing one adjacent to another, as in a stacked bar chart.
 

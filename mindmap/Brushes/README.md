@@ -1,4 +1,4 @@
-## [Brushes (d3-brush)](https://github.com/d3/d3-brush/tree/v3.0.0)
+- [Brushes (d3-brush)](https://github.com/d3/d3-brush/tree/v3.0.0)
 
 Select a one- or two-dimensional region using the mouse or touch.
 

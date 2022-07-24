@@ -1,4 +1,4 @@
-## [Paths (d3-path)](https://github.com/d3/d3-path/tree/v3.0.1)
+- [Paths (d3-path)](https://github.com/d3/d3-path/tree/v3.0.1)
 
 Serialize Canvas path commands to SVG.
 

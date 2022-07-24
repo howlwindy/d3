@@ -1,4 +1,4 @@
-## [Timers (d3-timer)](https://github.com/d3/d3-timer/tree/v3.0.1)
+- [Timers (d3-timer)](https://github.com/d3/d3-timer/tree/v3.0.1)
 
 An efficient queue for managing thousands of concurrent animations.
 

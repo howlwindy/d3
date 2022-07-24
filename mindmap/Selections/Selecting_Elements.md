@@ -1,4 +1,4 @@
-### [Selecting Elements](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selecting-elements)
+    - [Selecting Elements](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selecting-elements)
 
 - [d3.selection](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection) - select the root document element.
 - [d3.select](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#select) - select an element from the document.

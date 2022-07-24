@@ -1,4 +1,4 @@
-### [Spherical Shapes](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#spherical-shapes)
+    - [Spherical Shapes](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#spherical-shapes)
 
 - [d3.geoCircle](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#geoCircle) - create a circle generator.
 - [_circle_](https://github.com/d3/d3-geo/blob/v3.0.1/README.md#_circle) - generate a piecewise circle as a Polygon.

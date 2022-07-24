@@ -1,4 +1,4 @@
-## [Time Formats (d3-time-format)](https://github.com/d3/d3-time-format/tree/v4.0.0)
+- [Time Formats (d3-time-format)](https://github.com/d3/d3-time-format/tree/v4.0.0)
 
 Parse and format times, inspired by strptime and strftime.
 

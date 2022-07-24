@@ -1,4 +1,4 @@
-### Sequential (Single Hue)
+    - Sequential (Single Hue)
 
 - [d3.interpolateBlues](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateBlues) -
 - [d3.interpolateGreens](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateGreens) -

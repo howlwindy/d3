@@ -1,4 +1,4 @@
-### Sequential (Multi-Hue)
+    - Sequential (Multi-Hue)
 
 - [d3.interpolateBuGn](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateBuGn) - ColorBrewer BuGn interpolator.
 - [d3.interpolateBuPu](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#interpolateBuPu) - ColorBrewer BuPu interpolator.

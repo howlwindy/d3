@@ -1,4 +1,4 @@
-### [Curves](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#curves)
+    - [Curves](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#curves)
 
 Interpolate between points to produce a continuous shape.
 

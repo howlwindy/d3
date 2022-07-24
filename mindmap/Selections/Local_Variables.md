@@ -1,4 +1,4 @@
-### [Local Variables](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#local-variables)
+    - [Local Variables](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#local-variables)
 
 - [d3.local](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#local) - declares a new local variable.
 - [_local_.set](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#local_set) - set a local variable’s value.

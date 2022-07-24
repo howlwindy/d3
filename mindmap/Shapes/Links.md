@@ -1,4 +1,4 @@
-### [Links](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#links)
+    - [Links](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#links)
 
 A smooth cubic Bézier curve from a source to a target.
 

@@ -1,4 +1,4 @@
-## [Time Intervals (d3-time)](https://github.com/d3/d3-time/tree/v3.0.0)
+- [Time Intervals (d3-time)](https://github.com/d3/d3-time/tree/v3.0.0)
 
 A calculator for humanity’s peculiar conventions of time.
 

@@ -1,4 +1,4 @@
-### [Areas](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#areas)
+    - [Areas](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#areas)
 
 An area, defined by a bounding topline and baseline, as in an area chart.
 

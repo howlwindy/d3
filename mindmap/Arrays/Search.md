@@ -1,4 +1,4 @@
-### [Search](https://github.com/d3/d3-array/blob/v3.2.0/README.md#search)
+    - [Search](https://github.com/d3/d3-array/blob/v3.2.0/README.md#search)
 
 Methods for searching arrays for a specific element.
 

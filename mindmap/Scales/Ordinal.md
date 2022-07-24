@@ -1,4 +1,4 @@
-### [Ordinal Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#ordinal-scales)
+    - [Ordinal Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#ordinal-scales)
 
 Map a discrete domain to a discrete range.
 

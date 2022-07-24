@@ -1,4 +1,4 @@
-### Categorical
+    - Categorical
 
 - [d3.schemeCategory10](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeCategory10) - an array of ten categorical colors.
 - [d3.schemeAccent](https://github.com/d3/d3-scale-chromatic/blob/v3.0.0/README.md#schemeAccent) - an array of eight categorical colors.

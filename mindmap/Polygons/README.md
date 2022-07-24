@@ -1,4 +1,4 @@
-## [Polygons (d3-polygon)](https://github.com/d3/d3-polygon/tree/v3.0.1)
+- [Polygons (d3-polygon)](https://github.com/d3/d3-polygon/tree/v3.0.1)
 
 Geometric operations for two-dimensional polygons.
 

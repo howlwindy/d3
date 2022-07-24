@@ -1,4 +1,4 @@
-### [Transformations](https://github.com/d3/d3-array/blob/v3.2.0/README.md#transformations)
+    - [Transformations](https://github.com/d3/d3-array/blob/v3.2.0/README.md#transformations)
 
 Methods for transforming arrays and for generating new arrays.
 

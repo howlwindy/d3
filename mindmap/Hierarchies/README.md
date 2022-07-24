@@ -1,4 +1,4 @@
-## [Hierarchies (d3-hierarchy)](https://github.com/d3/d3-hierarchy/tree/v3.1.2)
+- [Hierarchies (d3-hierarchy)](https://github.com/d3/d3-hierarchy/tree/v3.1.2)
 
 Layout algorithms for visualizing hierarchical data.
 

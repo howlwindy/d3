@@ -1,4 +1,4 @@
-### [Histograms](https://github.com/d3/d3-array/blob/v3.2.0/README.md#bins)
+    - [Histograms](https://github.com/d3/d3-array/blob/v3.2.0/README.md#bins)
 
 Bin discrete samples into continuous, non-overlapping intervals.
 

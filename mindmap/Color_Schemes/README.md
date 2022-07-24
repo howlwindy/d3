@@ -1,13 +1,13 @@
-## [Color Schemes (d3-scale-chromatic)](https://github.com/d3/d3-scale-chromatic/tree/v3.0.0)
+- [Color Schemes (d3-scale-chromatic)](https://github.com/d3/d3-scale-chromatic/tree/v3.0.0)
 
 Color ramps and palettes for quantitative, ordinal and categorical scales.
 
-### Categorical
+    - Categorical
 
-### Diverging
+    - Diverging
 
-### Sequential (Single Hue)
+    - Sequential (Single Hue)
 
-### Sequential (Multi-Hue)
+    - Sequential (Multi-Hue)
 
-### Cyclical
+    - Cyclical

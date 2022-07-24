@@ -1,4 +1,4 @@
-### [Quantize Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#quantize-scales)
+    - [Quantize Scales](https://github.com/d3/d3-scale/blob/v4.0.2/README.md#quantize-scales)
 
 Map a continuous, quantitative domain to a discrete range.
 

@@ -1,4 +1,4 @@
-### [Symbols](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#symbols)
+    - [Symbols](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#symbols)
 
 A categorical shape encoding, as in a scatterplot.
 

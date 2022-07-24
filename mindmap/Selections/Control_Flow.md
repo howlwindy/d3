@@ -1,4 +1,4 @@
-### [Control Flow](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#control-flow)
+    - [Control Flow](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#control-flow)
 
 - [_selection_.each](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection_each) - call a function for each element.
 - [_selection_.call](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection_call) - call a function with this selection.

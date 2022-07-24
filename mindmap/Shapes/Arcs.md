@@ -1,4 +1,4 @@
-### [Arcs](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#arcs)
+    - [Arcs](https://github.com/d3/d3-shape/blob/v3.1.0/README.md#arcs)
 
 Circular or annular sectors, as in a pie or donut chart.
 

@@ -1,4 +1,4 @@
-## [Easings (d3-ease)](https://github.com/d3/d3-ease/tree/v3.0.1)
+- [Easings (d3-ease)](https://github.com/d3/d3-ease/tree/v3.0.1)
 
 Easing functions for smooth animation.
 
