@@ -195,19 +195,22 @@
     - [d3-selection](https://github.com/d3/d3-selection)
       - 将 dom 转换为 data-driven
         - [Selecting Elements](https://github.com/d3/d3-selection#selecting-elements)
-          - .
+          - 选择 dom
         - [Modifying Elements](https://github.com/d3/d3-selection#modifying-elements)
-          - .
+          - 修改单个已选的 dom
         - [Joining Data](https://github.com/d3/d3-selection#joining-data)
-          - .
+          - 根据数据批量修改 dom
+          - [e.g.](https://observablehq.com/@d3/selection-join)
+          - [Thinking with joins](https://bost.ocks.org/mike/join/)
         - [Handling Events](https://github.com/d3/d3-selection#handling-events)
-          - .
+          - 事件处理
         - [Control Flow](https://github.com/d3/d3-selection#control-flow)
-          - .
+          - 控制流
         - [Local Variables](https://github.com/d3/d3-selection#local-variables)
-          - .
+          - 生成独立的状态
+          - [e.g.](https://bl.ocks.org/mbostock/e1192fe405703d8321a5187350910e08)
         - [Namespaces](https://github.com/d3/d3-selection#namespaces)
-          - .
+          - svg/xhtml/xlink/xml/xmlns 的 namespaces
     - [d3-shape](https://github.com/d3/d3-shape)
       - 基本形状
         - [Arcs](https://github.com/d3/d3-shape#arcs)
