@@ -2,8 +2,8 @@
 
   - [d3.selection](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection)
     - html 元素
-  - [d3.select](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#select) - select an element from the document.
-  - [d3.selectAll](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selectAll) - select multiple elements from the document.
+  - [d3.select](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#select) - 从`html`开始，先广后深的选择第一个能匹配的元素
+  - [d3.selectAll](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selectAll) - 从`html`开始，选择能匹配的所有元素
   - [_selection_.select](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection_select) - select a descendant element for each selected element.
   - [_selection_.selectAll](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection_selectAll) - select multiple descendants for each selected element.
   - [_selection_.filter](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#selection_filter) - filter elements based on data.
